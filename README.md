@@ -1,4 +1,5 @@
-## Welcome to the world of Python!
+Welcome to the world of Python!
+----------------------------------------------------------------------------
 In the first phase of our study group, we will learn the basic concepts of 
 programming using Python. This can be your jump off towards web development,
 scripting, data processing and more!
