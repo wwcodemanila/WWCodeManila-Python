@@ -25,6 +25,14 @@ has_forever = False
 print(num, dec, is_wwc_great, has_forever)
 ```
 
+Now, let's try if we can re-assign values for these variables.
+
+```shell
+num = 100
+has_forever = True
+print(num, dec, is_wwc_great, has_forever)
+```
+
 ## Arithmetic Operations
 
 Let's try to do some arithmetic operations using Python!
@@ -57,8 +65,8 @@ print(f'{name} tweeted {tweet}')
 
 ## Challenge
 
-Let's apply what you have learned! Under exercises01, Checkout `exercise01.py` for this topic's challenge.
+Let's apply what you have learned! Under exercises01, check `exercise01.py` for this topic's challenge.
 
-#### References
+## References
 Please view [here](https://docs.google.com/presentation/d/1x_7VFjfV5xcHJI3Z-87O5zDn6pl1J33ADLr8R32cVds/edit?usp=sharing) the slides used last 25-Mar-2017
 
