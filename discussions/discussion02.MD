@@ -1,6 +1,6 @@
 ## Intro to PEP8
 
-Scenario: Partner A told Partner B that the client wants to input the dividend amount
+`Scenario:` Partner A told Partner B that the client wants to input the dividend amount
 instead of hardcoding it. Partner A will be on Boracay for a month long
 vacation and she left to you the source file.
 
@@ -90,7 +90,7 @@ Hence, the code above resulted to an error!
 ## Challenge
 This summer, Aling Nena’s Sari-sari store wants to implement a reward system
 where customers can redeem a reward by texting the following:
-`<Reward number> <Customer’s name> <Gender>
+`<Reward number> <Customer’s name> <Gender>`
 
 ```shell
 >> Please enter text: 1 nicole i. tibay f
@@ -106,7 +106,7 @@ Thank your for choosing Aling Nena’s Sari-sari store”
 ```
 
 Just some notes:
-* Please use the template below to be able to print the reward,
+* Please use the template below to be able to print the reward
 
 ```shell
 Gitlab project -> exercises -> exercises02 -> exercises02.py
