@@ -1,6 +1,6 @@
 ## Intro to PEP8
 
-Partner A told Partner B that the client wants to input the dividend amount
+Scenario: Partner A told Partner B that the client wants to input the dividend amount
 instead of hardcoding it. Partner A will be on Boracay for a month long
 vacation and she left to you the source file.
 
@@ -90,15 +90,15 @@ Hence, the code above resulted to an error!
 ## Challenge
 This summer, Aling Nena’s Sari-sari store wants to implement a reward system
 where customers can redeem a reward by texting the following:
-<Reward number> <Customer’s name> <Gender>
+`<Reward number> <Customer’s name> <Gender>
 
 ```shell
 >> Please enter text: 1 nicole i. tibay f
 ```
 
 The system will then reply the following:
-“Hi <Customer’s name first letters upper case>! You have successfully redeem
-reward #<reward number> - <reward>! Thank you for choosing Aling Nena’s Sari-sari store.”
+`Hi <Customer’s name first letters upper case>! You have successfully redeem
+reward #<reward number> - <reward>! Thank you for choosing Aling Nena’s Sari-sari store.`
 
 ```shell
 >> Hi Nicole I. Tibay! You have successfully redeem reward #1 - Coke sakto!
