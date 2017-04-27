@@ -1,4 +1,4 @@
-Welcome to the world of Python!
+# Welcome to the world of Python!
 ----------------------------------------------------------------------------
 For beginners, we will learn the basic concepts of
 programming using Python. This can be your jump off towards web development,
@@ -21,15 +21,15 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 
 ## Our Milestones
 ### Getting started
-[X] [Python Installation](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/installation_guide.MD)
-[X] [Run a basic Python program](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/warm_up.MD)
-[X] Basic GIT commands
+- [X] [Python Installation](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/installation_guide.MD)
+- [X] [Run a basic Python program](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/warm_up.MD)
+- [X] Basic GIT commands
 
 ### Basic concepts
-[X] [Variables, Arithmetic Operations, Keyboard Input](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion01.MD)
-[X] [Intro to PEP8, Strings](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
-[X] [Lists](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
-[] Dictionaries
+- [X] [Variables, Arithmetic Operations, Keyboard Input](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion01.MD)
+- [X] [Intro to PEP8, Strings](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
+- [X] [Lists](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
+- [] Dictionaries
 
 ### Advanced concepts
-[] Requests Library
+- [] Requests Library
