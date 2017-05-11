@@ -57,5 +57,5 @@ else:
 ### Challenge
 Please see files under:
 ```
-Gitlab project -> exercises -> exercises04
+Gitlab project -> exercises -> conditional_statements
 ```

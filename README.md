@@ -32,11 +32,13 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 - [ ] Loop
 - [ ] Dictionaries
 - [ ] Classes
+- [ ] Error Handling
 
 ### Advanced topics
 - [ ] Requests Library
 - [ ] List comprehension
 - [ ] Generators
+- [ ] Decorators
 
 ### Web Development with Flask
 Soon!
