@@ -34,8 +34,8 @@ Expressions? Checked! Let's dive to some Python decision making statements:
 is_card_presented = False
 customer_points = 10
 if is_card_presented:
-    # Can you shorten the expression below?
-    customer_points = customer_points + 1
+        # Can you shorten the expression below?
+        customer_points = customer_points + 1
 ```
 
 * If...else statements
@@ -43,17 +43,18 @@ if is_card_presented:
 customer_load = 100
 message = 'Happy to serve!'
 if customer_load > 0:
-    # call our function
-    send_message(message)
-    print('Your message is sent!')
-    # Again, can you shorten the expression below?
-    customer_load = customer_load - 1
+        # call our function
+        send_message(message)
+        print('Your message is sent!')
+        # Again, can you shorten the expression below?
+        customer_load = customer_load - 1
 else:
-    print('You have insufficient balance.')
+        print('You have insufficient balance.')
 
-def send_message(message):
-    # This is a function, we will learn more about this on our next session!
-    print('Sending: {}'.format(message))
+
+    def send_message(message):
+        # This is a function, we will learn more about this on our next session!
+        print('Sending: {}'.format(message))
 ```
 
 ### Takeaways
