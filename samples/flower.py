@@ -1,5 +1,7 @@
 """
 Reference: http://blog.tibarazmi.com/draw-flower-using-turtle/
+
+You can use https://trinket.io/python if you have problem running turtle
 """
 import turtle
 import math
