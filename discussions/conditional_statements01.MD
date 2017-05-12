@@ -42,7 +42,7 @@ if is_card_presented:
 ```python
 def send_message(message):
     # This is a function, we will learn more about this on our next session!
-    pass
+    print('Sending: {}'.format(message))
 
 customer_load = 100
 message = 'Happy to serve!'
