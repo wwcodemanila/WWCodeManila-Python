@@ -40,10 +40,6 @@ if is_card_presented:
 
 * If...else statements
 ```python
-def send_message(message):
-    # This is a function, we will learn more about this on our next session!
-    print('Sending: {}'.format(message))
-
 customer_load = 100
 message = 'Happy to serve!'
 if customer_load > 0:
@@ -54,6 +50,10 @@ if customer_load > 0:
     customer_load = customer_load - 1
 else:
     print('You have insufficient balance.')
+
+def send_message(message):
+    # This is a function, we will learn more about this on our next session!
+    print('Sending: {}'.format(message))
 ```
 
 ### Takeaways
