@@ -31,6 +31,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 - [ ] Conditional Statements
 - [ ] Loop
 - [ ] Dictionaries
+- [ ] Libraries
 - [ ] Classes
 - [ ] Error Handling
 
