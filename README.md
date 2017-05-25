@@ -38,9 +38,9 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 
 ### Advanced topics
 - [X] Requests Library
+- [ ] [Decorators](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 - [ ] List comprehension
 - [ ] Generators
-- [ ] Decorators
 
 ### Web Development with Flask
 Soon!
