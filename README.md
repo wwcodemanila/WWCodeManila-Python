@@ -28,15 +28,16 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 - [X] [Variables, Arithmetic Operations, Keyboard Input](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion01.MD)
 - [X] [Intro to PEP8, Strings](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
 - [X] [Lists](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
-- [ ] [Conditional Statements](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
+- [X] [Conditional Statements](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
 - [ ] [Loops](https://gitlab.com/Women-Who-Code-Manila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
 - [ ] Dictionaries
+- [ ] Functions
 - [ ] Libraries
 - [ ] Classes
 - [ ] Error Handling
 
 ### Advanced topics
-- [ ] Requests Library
+- [X] Requests Library
 - [ ] List comprehension
 - [ ] Generators
 - [ ] Decorators
