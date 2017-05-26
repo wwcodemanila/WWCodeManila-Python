@@ -21,16 +21,16 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 ## Our Milestones
 ### Getting started
 - [X] Python Installation - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD)
-- [X] [Run a basic Python program](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD)
+- [X] Run a basic Python program - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD)
 - [X] Basic GIT commands
 
 ### Basic concepts
-- [X] [Variables, Arithmetic Operations, Keyboard Input](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD)
-- [X] [Intro to PEP8, Strings](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
-- [X] [Lists](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
-- [X] [Conditional Statements](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
-- [ ] [Loops](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
-- [ ] [Dictionaries](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
+- [X] Variables, Arithmetic Operations, Keyboard Input - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD)
+- [X] Intro to PEP8, Strings - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
+- [X] Lists - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
+- [X] Conditional Statements - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
+- [ ] Loops - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
+- [ ] Dictionaries - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
 - [ ] Functions
 - [ ] Libraries
 - [ ] Classes
