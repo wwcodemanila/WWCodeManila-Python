@@ -4,7 +4,11 @@ Now we will run a very basic Python program that will print `Hello WomenWhoCode!
 
 #### Copy sample file
 
-Please copy the `first_python_code.py` file under `samples` folder
+Please copy the `first_python_code.py` file under `samples` folder.
+
+```
+Git project -> samples -> first_python_code.py
+```
 
 
 #### Running your first Python program
