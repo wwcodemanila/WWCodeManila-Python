@@ -117,9 +117,62 @@ print('We now have a total of {} postal mapping'.format(len(postal_mapping)))
 ```
 
 ### Challenge
-Good job! You are nearly complete in knowing some basic programming concepts using Python! Let's get our fingers and mind working! 
+Good job! You are nearly complete in knowing some basic programming concepts using Python! Let's get our fingers and mind working!
 
-Please see files under:
+Just like in grocery stores where items where scanned one by one and the
+total amount due is summed, please help Aling Nena's Sari-sari store
+to compute a customer's total order amount and print the receipt by:
+* Input the customer's products
+* The product dictionary contains Aling Nena's products and maps it's price.
+* If the product name is NOT in her list, just print 'Item <product name> void!'
+  and skip it from the computation of total amount due.
+* If the product is in the list, please print current purchased products and
+  their quantity.
+* If done punching the items:
+    - Print each purchased products, it's quantity, price, total price (quantity * price)
+    - Print the total items and total amount due.
+
+Example:
+```shell
+>> Item name:  sunsilk
+{'sunsilk': 1}
+>> Are you done? Press y to finish: n
+>> Item name:  SUNsilk
+{'sunsilk': 2}
+>> Are you done? Press y to finish: n
+>> Item name:  ligo
+{'sunsilk': 2, 'ligo': 1}
+>> Are you done? Press y to finish: n
+>> Item name:  Spam
+{'sunsilk': 2, 'ligo': 1, 'spam': 1}
+>> Are you done? Press y to finish: n
+>> Item name:  test
+Item test void!
+>> Are you done? Press y to finish: n
+>> Item name:  ligo
+{'sunsilk': 2, 'ligo': 2, 'spam': 1}
+>> Are you done? Press y to finish: y
+***** PRINTING YOUR RECEIPT *****
+sunsilk 7.5 * 2 = 15.0
+ligo 12.0 * 2 = 24.0
+spam 115.25 * 1 = 115.25
+5 items --------- 154.25
+```
+
+Just some notes:
+* Please use and copy `dictionaries01.py` as template.
+
 ```
 Gitlab project -> exercises -> dictionaries
 ```
+
+* Please rename the file as `<first name initial><middle name initial><last name>_dictionaries01.py`. For example, John M. Doe will name his file as `jmdoe_dictionaries01.py`.
+* Share your work and contribute to the community! Please request membership to one of our GIT groups: [GitLab](https://gitlab.com/wwcodemanila) or [GitHub](https://github.com/wwcodemanila) 
+* Please upload or push the file in our GIT repository (either in GitHub or GitLab) under the exercise folder.
+* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+
+## Further Challenge
+* [Hackerrank](https://www.hackerrank.com/)
+* [Checkio](https://checkio.org/)
+* [Codefights](https://codefights.com/)
+* [Codinggame](https://www.codingame.com/)
