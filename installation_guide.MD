@@ -1,7 +1,7 @@
 ## Getting started
-We need Python first!
+We need Python first! For our study group, we will be using `Python 3`, preferably `Python 3.6` :)
 
-Open your terminal or command prompt.
+To check if Python is already installed, open your terminal or command prompt.
 - For Windows users, search for `cmd`
 - For Linux and Mac users, search for `terminal`
 
@@ -10,17 +10,24 @@ After opening the terminal/command prompt(cmd), type the following command.
 python --version
 ```
 
+or
+
+```shell
+python3 --version
+```
+
 This will tell you what version of python is currently installed in your computer.
 
 ```shell
 Python 3.6.0
 
 ```
-> If python 3.6 is already installed, skip the next part.
+> If python 3 is already installed, skip the next part.
 
-We will be using `python 3.6` for this tutorial. You can download the [installer here](https://www.python.org/downloads/).
-Once download is complete, run the installer and follow the steps.
+For a detailed installation process, please [use this tutorial](https://tutorial.djangogirls.org/en/python_installation/).
 
-For more detailed installation process, please [use this tutorial](https://tutorial.djangogirls.org/en/python_installation/)
+> Note for Windows user, please don't forget to add Python in your PATH as per below.
+
+![Add Python to PATH](http://www.awesomescreenshot.com/image/2448388/5e57d47cd290770912390d3697037175)
 
 Done! You can now start coding in Python!
