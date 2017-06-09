@@ -22,15 +22,15 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 ### Getting started
 - [X] Python Installation - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD)
 - [X] Run a basic Python program - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD)
-- [X] Basic GIT commands
+- [X] [Basic GIT commands](https://github.com/wwcodemanila/git-party)
 
 ### Basic concepts
 - [X] Variables, Arithmetic Operations, Keyboard Input - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD)
 - [X] Intro to PEP8, Strings - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
 - [X] Lists - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
 - [X] Conditional Statements - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
-- [ ] Loops - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
-- [ ] Dictionaries - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
+- [X] Loops - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
+- [X] Dictionaries - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
 - [ ] Functions
 - [ ] Libraries
 - [ ] Classes
@@ -38,7 +38,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 
 ### Advanced topics
 - [X] Requests Library
-- [ ] [Decorators](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
+- [X] [Decorators](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 - [ ] List comprehension
 - [ ] Generators
 
