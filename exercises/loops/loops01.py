@@ -1,5 +1,6 @@
-"""
-During closing, Aling Nena counts from her vault the day's total income and
+""" Aling Nena's Cashier Challenge
+Author:
+Description: During closing, Aling Nena counts from her vault the day's total income and
 also the total amount of all her paper bills.
 
 Help Aling Nena count her total income and total amount of her paper bills
@@ -18,7 +19,7 @@ def is_coins(money):
         >>>  print(is_coins(1))
         True
     """
-    if money > 10:
+    if money < 20:
         return True
     return False
 

@@ -90,8 +90,6 @@ Git project -> exercises -> exercises01 -> exercises01.py
 * Please upload or push the file in our GIT repository (either in GitHub or GitLab) under the exercise folder.
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 
-
- 
 ## Further Challenge
 * [Hackerrank](https://www.hackerrank.com/)
 * [Checkio](https://checkio.org/)

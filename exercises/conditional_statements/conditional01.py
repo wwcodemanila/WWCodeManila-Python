@@ -1,5 +1,6 @@
-"""
-Aling Nena stores her soft drink stock on two refrigerators.
+""" Challenge
+Author:
+Description: Aling Nena stores her soft drink stock on two refrigerators.
 She stores Coke, Sprite and Royal on her Sari-sari store's refrigerator while
 RC and 7UP can be found on her house's refrigerator.
 

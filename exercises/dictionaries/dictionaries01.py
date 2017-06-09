@@ -1,5 +1,6 @@
-"""
-Just like in grocery stores where items where scanned one by one and the
+""" Aling Nena's Receipt Challenge
+Author:
+Description: Just like in grocery stores where items where scanned one by one and the
 total amount due is summed, please help Aling Nena's Sari-sari store
 to compute a customer's total order amount and print the receipt by:
 * Input the customer's products

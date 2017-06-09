@@ -11,7 +11,8 @@ print('Hello WomanWhoCode!')
 print('Hello ' + organization)
 
 # Using .format() function to attach a string
-print(f'Hello {organization}')
+print('Hello {}'.format(organization))
+# print(f'Hello {organization}')  # Can use this format with Python3.6
 
 # First, replace the following text with your name
 your_name = '<place your name here>'
