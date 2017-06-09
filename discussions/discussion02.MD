@@ -32,9 +32,8 @@ title = 'StringPaMore'
 hash_symbol = "#"
 hashtag = hash_symbol + title
 rating = str(5)
-print(f"{greeting} {rating} stars for them! {hashtag}")
-# For compatibility with versions < Python3.6
-# print("{} {} stars for them! {}".format(greeting, rating, hashtag))
+print("{} {} stars for them! {}".format(greeting, rating, hashtag))
+# print(f"{greeting} {rating} stars for them! {hashtag}")  # For versions Python3.6
 ```
 
 ### String methods
@@ -90,7 +89,7 @@ Hence, the code above resulted to an error!
 ## Challenge
 This summer, Aling Nena’s Sari-sari store wants to implement a reward system
 where customers can redeem a reward by texting the following:
-`<Reward number> <Customer’s name> <Gender>`
+`<Reward number 1-9> <Customer’s name> <Gender f or m>`
 
 ```shell
 >> Please enter text: 1 nicole i. tibay f
@@ -112,12 +111,15 @@ Just some notes:
 Gitlab project -> exercises -> exercises02 -> exercises02.py
 ```
 
-* Let’s assume for now that customers will always comply with the text format and give 1-9 number :)
+* Let’s assume for now that customers will always comply with the text format andgive 1-9 number :)
+* Please rename the file as `<first name initial><middle name initial><last name>_execise02.py`. For example, John M. Doe will name his file as `jmdoe_exercise02.py`.
+* Share your work and contribute to the community! Please request membership to one of our GIT groups: [GitLab](https://gitlab.com/wwcodemanila) or [GitHub](https://github.com/wwcodemanila) 
+* Please upload or push the file in our GIT repository (either in GitHub or GitLab) under the exercise folder.
+* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 * Enjoy!
 
-## Slide Reference
-Please view [here](https://docs.google.com/presentation/d/1iNpUAqxvEJwRDaSJRHw944pqy4MyZlYwwDiMPNmY1cU/edit?usp=sharing)
-
-
-
-
+## Further Challenge
+* [Hackerrank](https://www.hackerrank.com/)
+* [Checkio](https://checkio.org/)
+* [Codefights](https://codefights.com/)
+* [Codinggame](https://www.codingame.com/)

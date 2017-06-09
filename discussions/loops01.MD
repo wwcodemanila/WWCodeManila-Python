@@ -67,8 +67,33 @@ while is_hungry:
 
 ```
 #### Challenge
-Please see files under:
-```
-Gitlab project -> exercises -> loops
+During closing, Aling Nena counts from her vault the day's total income and
+also the total amount of all her paper bills.
+
+Help Aling Nena count her total income and total amount of her paper bills
+from a list of cash money and using a loop!
+
+Example:
+
+```shell
+>> Hi Aling Nena! Your total income for the day is 2947.
+>> The total amount of your paper bills is 2920.
 ```
 
+Just some notes:
+* Please use and copy `loops01.py` as your template.
+
+```shell
+Git project -> exercises -> loops01 -> loops01.py
+```
+
+* Please rename the file as `<first name initial><middle name initial><last name>_loops01.py`. For example, John M. Doe will name his file as `jmdoe_loops01.py`.
+* Share your work and contribute to the community! Please request membership to one of our GIT groups: [GitLab](https://gitlab.com/wwcodemanila) or [GitHub](https://github.com/wwcodemanila) 
+* Please upload or push the file in our GIT repository (either in GitHub or GitLab) under the exercise folder.
+* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+ 
+## Further Challenge
+* [Hackerrank](https://www.hackerrank.com/)
+* [Checkio](https://checkio.org/)
+* [Codefights](https://codefights.com/)
+* [Codinggame](https://www.codingame.com/)

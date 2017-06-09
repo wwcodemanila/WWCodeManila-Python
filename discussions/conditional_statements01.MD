@@ -62,7 +62,33 @@ else:
 * PEP8 recommends using `4` whitespaces for code indentation.
 
 ### Challenge
-Please see files under:
+Aling Nena stores her soft drink stock on two refrigerators.
+She stores `Coke, Sprite and Royal` on her Sari-sari store's refrigerator while
+`RC and 7UP` can be found on her house's refrigerator.
+
+Help Aling Nena to properly respond to her customer when buying softdrinks.
+
+The reply will depend if the soft drink brand is on the store's ref,
+on the house's ref or none. If the customer buys a soft drink brand that is:
+1. stored on the store, she will respond `Got it!`
+2. stored on the house, she will respond `Please wait for a while!`
+3. not sold by her, she will respond `Sorry we do not sell that. We only have <input here the soft drink brands>`
+    
+
+Just some notes:
+* Please see use and copy the file as your template:
+
 ```
 Gitlab project -> exercises -> conditional_statements
 ```
+
+* Please rename the file as `<first name initial><middle name initial><last name>_conditional01.py`. For example, John M. Doe will name his file as `jmdoe_conditional01.py`.
+* Share your work and contribute to the community! Please request membership to one of our GIT groups: [GitLab](https://gitlab.com/wwcodemanila) or [GitHub](https://github.com/wwcodemanila) 
+* Please upload or push the file in our GIT repository (either in GitHub or GitLab) under the exercise folder.
+* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+
+## Further Challenge
+* [Hackerrank](https://www.hackerrank.com/)
+* [Checkio](https://checkio.org/)
+* [Codefights](https://codefights.com/)
+* [Codinggame](https://www.codingame.com/)
