@@ -67,16 +67,21 @@ Gooood job! You finished basic programming concepts with Python! For your last c
 Aling Nena's Sari-sari store just had a new neighbor! It's Mang Toto's ForEx!
 Help Mang Toto to convert `USD, JPY, SGD` to `PHP` by:
 * Asking the customer for their currency.
+
 ```shell
 >> Welcome to Mang Toto's ForEx! What is your currency? We accept (usd, jpy, sgd):
 ```
+
 * If they are not exchanging the currrency, notify the customer.
+
 ```shell
 >> Welcome to Mang Toto's ForEx! What is your currency? We accept (usd, jpy, sgd): 
 >> aud
 >> Sorry! We do not exchange aud!
 ```
+
 * If they are in their currency list, ask for the amount and inform the original and equivalent PHP amount.
+
 ```shell
 >> Welcome to Mang Toto's ForEx! What is your currency? We accept (usd, jpy, sgd): 
 >> usd
