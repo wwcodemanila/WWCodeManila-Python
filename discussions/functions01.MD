@@ -60,3 +60,46 @@ def booster(number, boost=2):
 
 ### Take aways
 * [Playing with function parameters](http://pythoncentral.io/fun-with-python-function-parameters/)
+
+### Challenge
+Gooood job! You finished basic programming concepts with Python! For your last challenge...
+
+Aling Nena's Sari-sari store just had a new neighbor! It's Mang Toto's ForEx!
+Help Mang Toto to convert `USD, JPY, SGD` to `PHP` by:
+* Asking the customer for their currency.
+```shell
+>> Welcome to Mang Toto's ForEx! What is your currency? We accept (usd, jpy, sgd):
+```
+* If they are not exchanging the currrency, notify the customer.
+```shell
+>> Welcome to Mang Toto's ForEx! What is your currency? We accept (usd, jpy, sgd): 
+>> aud
+>> Sorry! We do not exchange aud!
+```
+* If they are in their currency list, ask for the amount and inform the original and equivalent PHP amount.
+```shell
+>> Welcome to Mang Toto's ForEx! What is your currency? We accept (usd, jpy, sgd): 
+>> usd
+>> Your 100.50 usd is equivalent to 5069.22 PHP
+```
+
+Just some notes:
+* Please use and copy `functions01.py` as template. The ForEX list are there.
+
+```
+Gitlab project -> exercises -> functions
+```
+
+* Please rename the file as `<first name initial><middle name initial><last name>functions01.py`. For example, John M. Doe will name his file as `jmdoe_dictionaries01.py`.
+* Share your work and contribute to the community!
+  * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
+  * Please upload or push the file in your GIT repository.
+  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
+  * Share the link of your work on the issue.
+* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+
+## Further Challenge
+* [Hackerrank](https://www.hackerrank.com/)
+* [Checkio](https://checkio.org/)
+* [Codefights](https://codefights.com/)
+* [Codinggame](https://www.codingame.com/)
