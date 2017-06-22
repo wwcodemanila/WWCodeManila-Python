@@ -90,7 +90,7 @@ Just some notes:
 Gitlab project -> exercises -> functions
 ```
 
-* Please rename the file as `<first name initial><middle name initial><last name>functions01.py`. For example, John M. Doe will name his file as `jmdoe_dictionaries01.py`.
+* Please rename the file as `<first name initial><middle name initial><last name>functions01.py`. For example, John M. Doe will name his file as `jmdoe_functions01.py`.
 * Share your work and contribute to the community!
   * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
   * Please upload or push the file in your GIT repository.

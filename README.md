@@ -31,7 +31,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 - [X] Conditional Statements - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
 - [X] Loops - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
 - [X] Dictionaries - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
-- [ ] Functions
+- [X] Functions
 - [ ] Libraries
 - [ ] Classes
 - [ ] Error Handling
