@@ -21,7 +21,7 @@ print("Hello! your {}JPY is equivalent to {:.2f}PHP".format(jpy, peso))
 ```
 
 Can you look again and check if there are lines of code that does the same thing? What if we can reuse those to make our code
-more [modular](https://www.quora.com/What-is-modular-programming-Where-is-it-used) and [reusable](https://www.quora.com/What-is-code-reusability)?
+more [modular](https://www.quora.com/What-is-modular-programming-Where-is-it-used) and [reusable](https://www.quora.com/What-is-code-reusability)? Oh wait, can it also improve readability?
 
 And we have `functions`!
 
@@ -38,3 +38,25 @@ print(len(str))
 From here can you try to explain to yourself what functions are? `Functions` are just a block of reusable code that does some tasks!
 The `len` function accepts an object and returns it length! Now we can reuse that function anywhere in our code to get
 the length of objects like strings or dictionaries!
+
+#### Writing our own function
+To write your own function like below:
+
+```python
+# Declaration
+def booster(number, boost=2):
+    # Block of code (what the function does)
+    print('Power booster!')
+    # Return statement is optional
+    return number * boost
+```
+
+1. **Declare** your function using the `def` keyword followed by your function name. 
+2. Write the **arguments** enclosed in parenthesis followed by a colon `:`. Functions can accept arguments/parameters just like the `number` and `boost` in our booster function. We have two types of parameters:
+  * **Required/Mandatory** - We need to provide the parameter value everytime we call the function just like `number`.
+  * **Optional** - We can omit to pass the parameter and a default value will be given just like `boost`.
+3. Write the task of the function (the block of code inside the function)
+4. Write the return statement (Optional)
+
+### Take aways
+* [Playing with function parameters](http://pythoncentral.io/fun-with-python-function-parameters/)
