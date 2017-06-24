@@ -83,9 +83,13 @@ Gitlab project -> exercises -> conditional_statements
 ```
 
 * Please rename the file as `<first name initial><middle name initial><last name>_conditional01.py`. For example, John M. Doe will name his file as `jmdoe_conditional01.py`.
-* Share your work and contribute to the community! Please request membership to one of our GIT groups: [GitLab](https://gitlab.com/wwcodemanila) or [GitHub](https://github.com/wwcodemanila) 
-* Please upload or push the file in our GIT repository (either in GitHub or GitLab) under the exercise folder.
+* Share your work and contribute to the community!
+  * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
+  * Please upload or push the file in your GIT repository.
+  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
+  * Share the link of your work on the issue.
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+* Enjoy!
 
 ## Further Challenge
 * [Hackerrank](https://www.hackerrank.com/)
