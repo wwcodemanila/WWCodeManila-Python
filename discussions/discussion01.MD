@@ -31,16 +31,19 @@ Magic? Nope. Let's explain what happened.
 
 ### Definition
 
-* Variables are like `containers` that allows us to store values/data.
-* We have different types of data in Python! Some are:
-  * Integer - positive/negative whole numbers
+Variables are like `containers` that allows us to store values/data.
+
+### Data types
+We have different types of data in Python! Some are:
+* Integer - positive/negative whole numbers
 
 ```python
 # We declare a variable named num
 # We assign/store the number 88 to our variable num
 num = 88
 ```
-  * Float/Decimal - positive/negative numbers with decimal
+
+* Float/Decimal - positive/negative numbers with decimal
 
 ```python
 # We declare a variable named dec
@@ -48,7 +51,7 @@ num = 88
 dec = 99.99
 ```
 
-  * Boolean - `True` or `False`
+* Boolean - `True` or `False`
 
 ```python
 # We declare a variable named is_wwc_great and has_forever
@@ -57,7 +60,7 @@ is_wwc_great = True
 has_forever = False
 ```
 
-  * String - series of characters enclosed in single/double quotes
+* String - series of characters enclosed in single/double quotes
 
 ```python
 # We declared a variable named movie_title
@@ -81,7 +84,7 @@ print(num)
 
 # Let's change the value of our variable has_forever
 has_forever = False
-print(haas_forever)
+print(has_forever)
 ```
 
 ## Arithmetic Operations
