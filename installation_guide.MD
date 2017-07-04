@@ -28,6 +28,6 @@ For a detailed installation process, please [use this tutorial](https://tutorial
 
 > Note for Windows user, please don't forget to add Python in your PATH as per below.
 
-![Add Python to PATH](http://www.awesomescreenshot.com/image/2448388/5e57d47cd290770912390d3697037175)
+![Add Python to PATH](https://eavictor.files.wordpress.com/2016/05/add_python_3-5_to_pathinstall_now.png?w=594)
 
 Done! You can now start coding in Python!
