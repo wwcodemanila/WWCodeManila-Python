@@ -41,6 +41,13 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 - [ ] List comprehension
 - [ ] Generators
 
+### Having a Geeky Love Affair with Python
+- [100+ Python challenging programming exercise](https://github.com/zhiwehu/Python-programming-exercises)
+- [HackerRank](https://www.hackerrank.com)
+- [CheckIO](https://checkio.org/)
+- [CodeFights](https://codefights.com/)
+- [CodingGame](https://www.codingame.com/)
+
 ### Web Development with Flask
 Soon!
 
