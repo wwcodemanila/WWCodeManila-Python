@@ -25,13 +25,14 @@ My two cents - Do not be terrified when your best friend, the Python interpreter
   *  Know that sometimes it's [okay to fail](https://realpython.com/blog/python/the-most-diabolical-python-antipattern/).
 2. Rewrite the code above to handle error.
   * Be creative! *Tip*: You may just notify the user for his/her mistake or ask him/her for a new input ;)
-3. Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
+3. Please name the file as `<first name initial><middle name initial><last name>_error_handling.py`. For example, John M. Doe will name his file as `jmdoe_error_handling.py`.
+4. Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
   * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
   * Please upload or push the file in your GIT repository.
-  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
+  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Error Handling`.
   * Share the link of your work on the issue.
-4. Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-5. Enjoy!
+5. Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+6. Enjoy!
   
   
 ### Deep Dive

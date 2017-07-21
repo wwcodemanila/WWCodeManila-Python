@@ -33,7 +33,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 - [X] Dictionaries - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
 - [X] Functions - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD)
 - [X] [Classes and Module](http://introtopython.org/classes.html)
-- [ ] Error Handling
+- [X] Error Handling - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD)
 
 ### Advanced topics
 - [X] Requests Library
