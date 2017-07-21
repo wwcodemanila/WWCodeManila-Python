@@ -167,7 +167,7 @@ Gitlab project -> exercises -> dictionaries
 ```
 
 * Please rename the file as `<first name initial><middle name initial><last name>_dictionaries01.py`. For example, John M. Doe will name his file as `jmdoe_dictionaries01.py`.
-* Share your work and contribute to the community!
+* Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
   * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
   * Please upload or push the file in your GIT repository.
   * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
