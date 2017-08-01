@@ -49,7 +49,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 - [CodingGame](https://www.codingame.com/)
 
 ### Web Development with Flask
-Soon!
+- Intro, Setup, Running our first Flask web application
 
 ### Web Development with Django
 Soon!
