@@ -25,7 +25,7 @@ is_wwc_great = True
 has_forever = False
 movie_title = 'superwoman'
 # Let's print out their values
-print(num, dec, is_wwc_great, has_forever)
+print(num, dec, is_wwc_great, has_forever, movie_title)
 ```
 
 Magic? Nope. Let's explain what happened.
