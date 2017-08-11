@@ -50,6 +50,10 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/241155
 
 ### Web Development with Flask
 - Intro, Setup, Running our first Flask web application
+- URL routes, styling templates (using Jina), Passing variables
+- Update random quote generator to a quote search engine
+- More on forms, cookies and sessions
+- Deploying the app via Heroku or similar mediums
 
 ### Web Development with Django
 Soon!
