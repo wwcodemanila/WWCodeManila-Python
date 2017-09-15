@@ -54,5 +54,7 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 - More on forms, cookies and sessions
 - Deploying the app via Heroku or similar mediums
 
+*Resources*: [Github](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/flask/discussions), [Gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/tree/master/flask/discussions)
+
 ### Web Development with Django
 Soon!
