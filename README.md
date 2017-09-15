@@ -5,8 +5,7 @@ scripting, data processing and more!
 
 For immediate/advanced Pythonistas, let's spread our knowledge of Python and learn more!
 
-If you have questions, please feel free to ask and participate on our [discussion
-board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/24115536).
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
 
 ## Study Group Setup
 * Resources such as notes, exercises and samples will be uploaded here.
