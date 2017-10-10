@@ -4,6 +4,12 @@ Let's create a simple random quote generator web app using Flask!
 
 ![Random quote generator](https://pythonspot-9329.kxcdn.com/wp-content/uploads/2015/03/python-flask-webap.png)
 
+## What to expect
+
+- [ ] Understanding URL Routes
+- [ ] Passing variables to URL Routes
+- [ ] Separate code from user interface (Templates)
+
 ## First step
 
 Create a new isolated development environment for our new project and activate it:

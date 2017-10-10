@@ -2,6 +2,12 @@
 
 Let's update our random quote generator to retrieve quotes from the database!
 
+## What to expect
+
+- [ ] Understand what a databases are
+- [ ] Installing SQLite
+- [ ] Using SQLite in a Python web app
+
 ### References
 
 *  [SQLite Installation](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)

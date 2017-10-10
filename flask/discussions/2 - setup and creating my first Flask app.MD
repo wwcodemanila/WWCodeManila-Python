@@ -1,5 +1,15 @@
 Before you begin, make sure you have [Python](https://www.python.org/downloads/) installed and ready-to-use.
 
+###  What to expect
+
+- [ ] Understand the importance of virtual environment
+- [ ] Install and create a virtual environment
+- [ ] Install and use `virtualenvwrapper`
+- [ ] Create and run a simple Flask application
+
+![Simple Flask application](https://pythonspot-9329.kxcdn.com/wp-content/uploads/2015/03/python-flask-webapp.png)
+
+
 ## Setup and installation
 
 ### Virtual Environment
