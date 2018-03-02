@@ -17,10 +17,10 @@ Let the game begin!
 
 ### Resources
 
-Please use the files under `2048-starter-kit` for your project.
+Please use the files here for your project.
 
 * [Instruction](https://github.com/enixdark/principlescomputing-001/blob/master/Week0/Instructions.md)
-* [Starter kit](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/2048/2048-starter-kit)
+* [Starter kit](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/2048)
 * Install the required library for the game GUI:
 
 ```python

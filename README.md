@@ -33,6 +33,7 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 - [X] Functions - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD)
 - [X] [Classes and Module](http://introtopython.org/classes.html)
 - [X] Error Handling - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD)
+- [X] [Level up your basic skills with 2048](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/2048)
 
 ### Advanced topics
 - [X] Requests Library
