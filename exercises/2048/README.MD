@@ -38,3 +38,18 @@ pip install -r requirements.txt
 ```python
 python logic.py
 ```
+
+## Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
+
+
+## Sharing your work
+
+* Put your working files(e.g. logic.py, poc_2048_gui.py) under one `2048` folder.
+* Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
+  * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
+  * Please upload or push the file in your GIT repository.
+  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - 2048`.
+  * Share the link of your work on the issue.
+* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+* Enjoy!

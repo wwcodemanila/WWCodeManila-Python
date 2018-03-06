@@ -33,6 +33,10 @@ $ mkdir app
 $ cd app
 ```
 
+### Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
+
+
 ### References
 *  [Tutorial](https://pythonspot.com/en/flask-web-app-with-python/)
 *  [Slides](https://docs.google.com/presentation/d/1yWr0I2aU0tFMMeQ4s4cUcv0V1Mxq1CmCPdkP-V1atlg/edit?usp=sharing)

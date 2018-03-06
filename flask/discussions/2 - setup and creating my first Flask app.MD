@@ -104,3 +104,7 @@ Congratulations! You can now access your app through the url route generated in 
 To quit, just press `CTRL+C`.
 
 To deactivate your virtual environment, simply enter `deactivate`.
+
+
+### Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).

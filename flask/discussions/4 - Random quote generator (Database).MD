@@ -21,3 +21,6 @@ random quote from the database!
 
 > Bonus: Create a search route `/search/<string:search>/` that will return all
 > quotes from the database containg the search string!
+
+### Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).

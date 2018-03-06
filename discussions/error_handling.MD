@@ -33,7 +33,11 @@ My two cents - Do not be terrified when your best friend, the Python interpreter
   * Share the link of your work on the issue.
 5. Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 6. Enjoy!
-  
+
+
+## Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
+
   
 ### Deep Dive
 *  [Pep 463](http://legacy.python.org/dev/peps/pep-0463/): Exception-catching expressions

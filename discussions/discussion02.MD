@@ -121,6 +121,11 @@ Gitlab project -> exercises -> exercises02 -> exercises02.py
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 * Enjoy!
 
+
+## Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
+
+
 ## Further Challenge
 * [Hackerrank](https://www.hackerrank.com/)
 * [Checkio](https://checkio.org/)
