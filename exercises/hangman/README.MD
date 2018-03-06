@@ -30,6 +30,10 @@ You can use the template file here for this exercise.
 python hangman.py
 ```
 
+### Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
+
+
 ### Sharing your work
 
 * Please rename the file as `<first name initial><middle name initial><last name>_hangman.py`. For example, John M. Doe will name his file as `jmdoe_hangman.py`.
