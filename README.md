@@ -29,6 +29,7 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 - [X] Lists - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
 - [X] Conditional Statements - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
 - [X] Loops - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
+- [X] [I survived Hangman!](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/hangman)
 - [X] Dictionaries - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
 - [X] Functions - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD)
 - [X] [Classes and Module](http://introtopython.org/classes.html)
