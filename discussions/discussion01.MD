@@ -167,6 +167,16 @@ Git project -> exercises -> exercises01 -> exercises01.py
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 * Enjoy!
 
+## Put your thinking cap on!
+
+- Does a variable really holds values?
+- How to know/print a variable's type?
+- What is `floor divison`?
+- What does the `modulo` operation do?
+- Explain the magic of `input()`?
+
+And add more!
+
 
 ## Getting crazy? Need help?
 If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).

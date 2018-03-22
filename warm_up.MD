@@ -71,6 +71,15 @@ Nicole loves Python!
 
 Now you have run your first program!
 
+## Put your thinking cap on!
+
+- What is the extension of a Python file?
+- What do you call the `cd`? What does it do?
+- What does the `print()` do?
+- What does the `.format()` do?
+- What is the magic of the `#` symbol?
+
+And add more!
 
 ## Getting crazy? Need help?
 If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
