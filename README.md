@@ -19,22 +19,26 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 
 ## Our Milestones
 ### Getting started
-- [X] Python Installation - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD)
-- [X] Run a basic Python program - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD)
+| Topic        | Github           | Gitlab  | Others |
+| ------------- |:-------------:| -----:| -----:| 
+| Python Installation | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/installation_guide.MD) |
+| Run a basic Python program | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/warm_up.MD) |
 
 ### Basic concepts
-- [X] Variables, Arithmetic Operations, Keyboard Input - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD)
-> We want you to [learn Git](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/git)!
-- [X] Intro to PEP8, Strings - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
-- [X] Lists - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD)
-- [X] Conditional Statements - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD)
-- [X] Loops - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD)
-> Challenge: [I survived Hangman!](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/hangman)
-- [X] Dictionaries - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD)
-- [X] Functions - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD)
-- [X] [Classes and Module](http://introtopython.org/classes.html)
-- [X] Error Handling - [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD), [github](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD)
-> Challenge: [Level up your basic skills with 2048](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/2048)
+| Topic        | Github           | Gitlab  | Others |
+| ------------- |:-------------:| -----:| -------:|
+| Variables, Arithmetic Operations, Keyboard Input | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion01.MD) |
+| Let's go Git! | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/git) |
+| Intro to PEP8, Strings | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion02.MD)
+| Lists | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/discussion03.MD) |
+| Conditional Statements | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/conditional_statements01.MD) |
+| Loops | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/loops01.MD) |
+| Challenge: I survived Hangman! | [Go!](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/hangman) |
+| Dictionaries | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/dictionaries01.MD) |
+| Functions | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/functions01.MD) |
+| Classes and Module | | | [Learn!](http://introtopython.org/classes.html) |
+| Error Handling | [Learn!](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD) | [Learn!](https://gitlab.com/wwcodemanila/WWCodeManila-Python/blob/master/discussions/error_handling.MD) |
+| Challenge: Level up your basic skills with 2048! | [Go!](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/2048) |
 
 ### Advanced topics
 - [X] Requests Library
