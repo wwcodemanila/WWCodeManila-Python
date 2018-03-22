@@ -1,26 +1,33 @@
 ## Let's do some warm up
 
-Now we will run a very basic Python program that will print `Hello WomenWhoCode!`
+Now we will run a very basic Python program that will print `Hello WomenWhoCode!`. This will allow you to run a basic Python program:
 
-#### Copy sample file
+- [ ] from the terminal
+- [ ] from your editor
 
-Please copy/download the `first_python_code.py` file under `samples` folder.
+
+### Copy sample file
+
+Please copy/download the [first_python_code.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/samples/first_python_code.py) file under `samples` folder.
 
 ```
 Git project -> samples -> first_python_code.py
 ```
 
 
-#### Running your first Python program
+### Running your first Python program
 
-Let's try to run some code.
+Let's try to run some Python code!
+
+#### Using a terminal
+
 - Open a terminal
 
 ```
 Windows: Click Start -> Type cmd
 Mac: Open Applications folder -> Utilities folder
 ```
-- Go to the directory of the file by running the following command. If you need help finding the directory path, you can ask the coach how.
+- Go to the directory of the file by running the following command. If you need help finding the directory path, you can ask the mentor how.
 
 ```
 cd <path to your copy of first_python_code>
@@ -32,6 +39,12 @@ cd <path to your copy of first_python_code>
 python first_python_code.py
 ```
 
+or
+
+```
+python3 first_python_code.py
+```
+
 - This is your simple program that prints some text. The output should be
 
 ```
@@ -39,13 +52,26 @@ Hello WomenWhoCode!
 Hello WomanWhoCode!
 Hello WomenWhoCode!
 ```
-- Open the file using your text editor to see the code.
 
-#### Try printing your name
+#### Using an editor
+
+Open the file using your text editor and run the code! You should see the same result.
+
+### Try printing your name
+- Open the file using your text editor.
 - Inside the file, there is an instruction. Follow it! :)
-- When you are done, save the file and go back to the terminal
+- When you are done, save the file and run it again in your terminal and editor!
+
 ```
-python first_python_code.py
+Hello WomenWhoCode!
+Hello WomanWhoCode!
+Hello WomenWhoCode!
+Nicole loves Python!
 ```
 
 Now you have run your first program!
+
+
+## Getting crazy? Need help?
+If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
+

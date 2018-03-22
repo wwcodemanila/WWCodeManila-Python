@@ -1,5 +1,5 @@
 ## Getting started
-We need Python first! For our study group, we will be using `Python 3`, preferably `Python 3.6` :)
+We need Python first! For our study group, we will be using `Python 3`, preferably >= `Python 3.6` :)
 
 To check if Python is already installed, open your terminal or command prompt.
 - For Windows users, search for `cmd`

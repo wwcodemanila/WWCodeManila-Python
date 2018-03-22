@@ -47,7 +47,7 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 - [ ] Generators
 
 ### Supplementary topics
-- [X] [Basic GIT commands](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/git)
+- [Basic GIT commands](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/git)
 
 ### Having a Geeky Love Affair with Python
 - [100+ Python challenging programming exercise](https://github.com/zhiwehu/Python-programming-exercises)
