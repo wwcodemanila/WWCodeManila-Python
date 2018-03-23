@@ -98,7 +98,7 @@ Git project -> exercises -> loops01 -> loops01.py
 
 ## Put your thinking cap on!
 
-- What does the `for` and `while` loop do?
+- What are the specific characteristics of the `for` and `while` loop?
 - What is the effect of `break`, `continue` and `pass` control statements in a loop?
 
 And add more!

@@ -89,7 +89,7 @@ Help Mang Toto to convert `USD, JPY, SGD` to `PHP` by:
 ```
 
 Just some notes:
-* Please use and copy `functions01.py` as template. The ForEX list are there.
+* Please use and copy [functions01.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/functions/functions01.py) as template. The ForEX list are there.
 
 ```
 Gitlab project -> exercises -> functions
@@ -99,9 +99,18 @@ Gitlab project -> exercises -> functions
 * Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
   * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
   * Please upload or push the file in your GIT repository.
-  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
+  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Functions`.
   * Share the link of your work on the issue.
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+
+
+## Put your thinking cap on!
+
+- What does `:.2f` do during string formatting?
+- Should the required parameters be declared first on a function? Or we can order in YOLO the required and optional parameters?
+- Are function parameters passed `by value` or `by reference`?
+
+And add more!
 
 
 ## Getting crazy? Need help?

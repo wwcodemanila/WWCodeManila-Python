@@ -160,7 +160,7 @@ spam 115.25 * 1 = 115.25
 ```
 
 Just some notes:
-* Please use and copy `dictionaries01.py` as template.
+* Please use and copy [dictionaries01.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/dictionaries/dictionaries01.py) as template.
 
 ```
 Gitlab project -> exercises -> dictionaries
@@ -174,6 +174,17 @@ Gitlab project -> exercises -> dictionaries
   * Share the link of your work on the issue.
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 * Enjoy!
+
+
+## Put your thinking cap on!
+
+- Is there a way to avoid a KeyError when using `pop()` to an non-existent key?
+- What are the allowed keys of a dictionary? What attribute do they share in common?
+- How do you check if a certain key exists in a dictionary?
+- How do you loop through a dictionary, getting both it's key and value pair?
+
+And add more!
+
 
 ## Getting crazy? Need help?
 If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
