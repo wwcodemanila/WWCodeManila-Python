@@ -41,10 +41,11 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 | Challenge: Level up your basic skills with 2048! | [Go!](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/2048) |
 
 ### Advanced topics
-- [X] Requests Library
+- [X] [List comprehension](https://hackernoon.com/list-comprehension-in-python-8895a785550b)
+- [X] [Generators](https://anandology.com/python-practice-book/iterators.html)
 - [X] [Decorators](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
-- [ ] List comprehension
-- [ ] Generators
+- [X] Requests Library Deep Dive
+
 
 ### Supplementary topics
 - [Basic GIT commands](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/git)
