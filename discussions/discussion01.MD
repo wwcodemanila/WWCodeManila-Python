@@ -152,7 +152,7 @@ customer their total bill and payment amount and tell them their change
 ```
 
 Just some notes:
-* Under exercises01, you can use and copy `exercise01.py` as template.
+* Under exercises01, you can use and copy [exercise01.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/exercises01/exercises01.py) as template.
 
 ```shell
 Git project -> exercises -> exercises01 -> exercises01.py

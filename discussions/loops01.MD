@@ -1,4 +1,4 @@
-### Loops
+## Loops
 Can you tell what the code below does?
 ```python
 continents = ['Africa', 'Antarctica', 'Asia', 'Australia/Oceania', 'Europe', 'North America', 'South America']
@@ -56,7 +56,7 @@ while count > 0:
 print('Happy New Year!')
 ```
 
-#### Takeaways
+### Takeaways
 * We can use `break`, `continue` and `pass` as control statements in the loop. Google it!
 * `Infinite loop`: Use `while` loops with caution because if the expression did **NOT** resolve to a `False` the loooooooooooooop will go on forever just like below.
 
@@ -66,7 +66,7 @@ while is_hungry:
     print('Vikings here I come!')
 
 ```
-#### Challenge
+### Challenge
 During closing, Aling Nena counts from her vault the day's total income and
 also the total amount of all her paper bills.
 
@@ -81,7 +81,7 @@ Example:
 ```
 
 Just some notes:
-* Please use and copy `loops01.py` as your template.
+* Please use and copy [loops01.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/loops/loops01.py) as your template.
 
 ```shell
 Git project -> exercises -> loops01 -> loops01.py
@@ -95,6 +95,13 @@ Git project -> exercises -> loops01 -> loops01.py
   * Share the link of your work on the issue.
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 * Enjoy!
+
+## Put your thinking cap on!
+
+- What does the `for` and `while` loop do?
+- What is the effect of `break`, `continue` and `pass` control statements in a loop?
+
+And add more!
 
 
 ## Getting crazy? Need help?

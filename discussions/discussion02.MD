@@ -2,7 +2,7 @@
 
 `Scenario:` Partner A told Partner B that the client wants to input the dividend amount
 instead of hardcoding it. Partner A will be on Boracay for a month long
-vacation and she left to you the source file.
+vacation and she left to you the source file, [explain_me.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/samples/explain_me.py).
 
 ```shell
 Open our Gitlab project -> samples -> explain_me.py
@@ -16,9 +16,28 @@ Let's read [PEP8](https://www.python.org/dev/peps/pep-0008/) guidelines.
 From PEP8:
 * Readability counts - code is read much more often that it is written!
 * The guideline is intended to improve the readability of code and make it consistent.
-* It is not a guide not a law!
+* It is a guide not a law!
 
-Now, try to rewrite the code and apply some PEP8 guides :)
+Now, which of the ff. are PEP8 compliant?
+
+``` python
+income = (gross_wages +
+          taxable_interest +
+          (dividends - qualified_dividends) -
+          ira_deduction -
+          student_loan_interest)
+```
+
+or
+
+```python
+income = (gross_wages
+          + taxable_interest
+          + (dividends - qualified_dividends)
+          - ira_deduction
+          - student_loan_interest)
+
+```
 
 ## String pa more
 A string is a series of letters, numbers, symbols enclosed in single quote (‘) or double quote (“).
@@ -61,7 +80,7 @@ lastname = "Jowson"
 # Can you try print out the name initials?
 ```
 
-Try running or typing the code under our samples folder, `my_strings.py`.
+Try running or typing the code under our samples folder, [my_strings.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/samples/my_strings.py).
 
 ```python
 # We can access string characters through this syntax:
@@ -69,6 +88,9 @@ your_string[<index>]
 # Each character in a string is represented by an index number
 # starting from 0
 ```
+
+Here's an image to guide you with indexing.
+![Python string indexing](https://developers.google.com/edu/python/images/hello.png)
 
 Now, since we can access characters from a string, let's try to change its value!
 Is the code below successful?
@@ -83,7 +105,7 @@ mispelled_word[4] = "e"
 mispelled_word = "believe"
 ```
 
-Strings are immutable, meaning we cannot change it's value after creation.
+Strings are **immutable**, meaning we cannot change it's value after creation.
 Hence, the code above resulted to an error!
 
 ## Challenge
@@ -105,7 +127,7 @@ Thank your for choosing Aling Nena’s Sari-sari store”
 ```
 
 Just some notes:
-* Please use the template below to be able to print the reward
+* Please use this [template](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/exercises02/exercises02.py) to be able to print the reward.
 
 ```shell
 Gitlab project -> exercises -> exercises02 -> exercises02.py
@@ -120,6 +142,15 @@ Gitlab project -> exercises -> exercises02 -> exercises02.py
   * Share the link of your work on the issue.
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 * Enjoy!
+
+
+
+## Put your thinking cap on!
+
+- What is the reasoning behind PEP8's break before binary operations?
+- What does the `str()` function do?
+- Do you find any difference in using `len(<your string>)` and `<your string>.lower()`? Can you explain?
+- Explain string immutability.
 
 
 ## Getting crazy? Need help?

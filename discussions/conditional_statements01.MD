@@ -17,15 +17,21 @@ Sends out SMS if customer has enough load, else prompt for an insufficient balan
 
 Python offers decison making statements in order for us to conditionally execute a block of code. But before introducing those, let us recall that an action will only be executed if it meets a `condition` or `situation`, expressions that evaluates to `True` or `False`. Let's try to code some expressions!
 ```python
-# Use literal values
+# Using literal values
 is_late = True
 is_card_presented = False
+print(is_late, is_card_presented)
+
 # Null or Zero values evaluates to False
 customer_card = None
-# Use operations
-customer_load = 100
-customer_load > 0
-"Nissin".startswith("c")
+print(customer_card)
+
+# Using operations
+customer_load = 99
+
+customer_load == 100  # Evaluates to False
+customer_load > 0  # Evaluates to True
+"Nissin".startswith("c")  # Evaluates to False
 ```
 
 Expressions? Checked! Let's dive to some Python decision making statements:
@@ -40,6 +46,11 @@ if is_card_presented:
 
 * If...else statements
 ```python
+def send_message(message):
+    # This is a function, we will learn more about this on our next session!
+    print('Sending: {}'.format(message))
+    
+    
 customer_load = 100
 message = 'Happy to serve!'
 if customer_load > 0:
@@ -50,11 +61,6 @@ if customer_load > 0:
         customer_load = customer_load - 1
 else:
         print('You have insufficient balance.')
-
-
-    def send_message(message):
-        # This is a function, we will learn more about this on our next session!
-        print('Sending: {}'.format(message))
 ```
 
 ### Takeaways
@@ -76,7 +82,7 @@ on the house's ref or none. If the customer buys a soft drink brand that is:
     
 
 Just some notes:
-* Please see use and copy the file as your template:
+* Please see use and copy this [template](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/conditional_statements/conditional01.py):
 
 ```
 Gitlab project -> exercises -> conditional_statements
@@ -90,6 +96,14 @@ Gitlab project -> exercises -> conditional_statements
   * Share the link of your work on the issue.
 * Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 * Enjoy!
+
+
+## Put your thinking cap on!
+
+- What are the different ways to write conditional statements?
+
+And add more!
+
 
 ## Getting crazy? Need help?
 If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
