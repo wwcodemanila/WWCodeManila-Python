@@ -1,6 +1,6 @@
 Before you begin, make sure you have [Python](https://www.python.org/downloads/) installed and ready-to-use.
 
-###  What to expect
+###  Prerequisites
 
 - [ ] Understand the importance of virtual environment
 - [ ] Install and create a virtual environment
@@ -8,9 +8,6 @@ Before you begin, make sure you have [Python](https://www.python.org/downloads/)
 - [ ] Create and run a simple Flask application
 
 ![Simple Flask application](https://pythonspot-9329.kxcdn.com/wp-content/uploads/2015/03/python-flask-webapp.png)
-
-
-## Setup and installation
 
 ### Virtual Environment
 
@@ -69,42 +66,6 @@ Once activated, install Flask through `pip`:
 ```shell
 $ pip install Flask
 ```
-
-### My First Flask Application
-
-Now, to create a minimal Flask application, create a file named `hello.py` inside your project folder (~/Envs):
-
-```shell
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
-```
-
-In your terminal or console, navigate to the location of your project folder and set the `FLASK_APP` environment variable:
-
-```shell
-Mac:
-export FLASK_APP=hello.py
-
-Windows:
-set FLASK_APP=hello.py
-```
-
-Finally, run your application:
-
-```shell
-flask run
-```
-
-Congratulations! You can now access your app through the url route generated in your terminal or console using your favorite browser.
-
-To quit, just press `CTRL+C`.
-
-To deactivate your virtual environment, simply enter `deactivate`.
-
 
 ### Getting crazy? Need help?
 If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).

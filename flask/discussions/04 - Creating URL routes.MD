@@ -1,26 +1,42 @@
-# Random Quote Generator meets Database
+# Creating a Random Quote Generator Web App
 
-Let's update our random quote generator to retrieve quotes from the database!
+Let's create a simple random quote generator web app using Flask!
+
+![Random quote generator](https://pythonspot-9329.kxcdn.com/wp-content/uploads/2015/03/python-flask-webap.png)
 
 ## What to expect
 
-- [ ] Understand what a databases are
-- [ ] Installing SQLite
-- [ ] Using SQLite in a Python web app
+- [ ] Understanding URL Routes
+- [ ] Passing variables to URL Routes
+- [ ] Separate code from user interface (Templates)
 
-### References
+## First step
 
-*  [SQLite Installation](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
-*  [Python + Sqlite](https://pythonspot.com/en/python-database-programming-sqlite-tutorial/)
-*  [Slides](https://docs.google.com/presentation/d/1yzyAuDip0rmlrZ_MD3aU1ryXStHzcInKldD0gKYDkmY/edit?usp=sharing)
+Create a new isolated development environment for our new project and activate it:
 
-### Challenge
+```shell
+$ mkvirtualenv QuoteSearchEngine
+$ workon QuoteSearchEngine
+```
 
-Transfer/Store quotes to SQLite database and update your `app.py getMember function` to fetch your
-random quote from the database!
+Once activated, install Flask through pip:
 
-> Bonus: Create a search route `/search/<string:search>/` that will return all
-> quotes from the database containg the search string!
+```shell
+$ pip install Flask
+```
+
+Go inside your `QuoteSearchEngine` and create our project folder named `app`
+
+```shell
+$ cd QuotesSearchEngine
+$ mkdir app
+$ cd app
+```
 
 ### Getting crazy? Need help?
 If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
+
+
+### References
+*  [Tutorial](https://pythonspot.com/en/flask-web-app-with-python/)
+*  [Slides](https://docs.google.com/presentation/d/1yWr0I2aU0tFMMeQ4s4cUcv0V1Mxq1CmCPdkP-V1atlg/edit?usp=sharing)

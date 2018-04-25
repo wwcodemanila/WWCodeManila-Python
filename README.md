@@ -61,7 +61,7 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 | # | Topic | Github | Gitlab  | Others |
 | - | ----- | ------ | ------- | ------ |
 | 01 | Introduction
-| 02 | Installation
+| 02 | Setting up Flask and virtual environments
 | 03 | Building my first Flask app
 | 04 | Creating URL routes
 | 05 | Styling templates and passing variables
