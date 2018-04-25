@@ -60,9 +60,9 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 ### Web Development with Flask
 | # | Topic | Github | Gitlab  | Others |
 | - | ----- | ------ | ------- | ------ |
-| 01 | Introduction
-| 02 | Setting up Flask and virtual environments
-| 03 | Building my first Flask app
+| 01 | Introduction | [Learn!](https://github.com/alyssonalvaran/WWCodeManila-Python/blob/master/flask/discussions/01%20-%20Introduction.MD)
+| 02 | Setting up Flask and virtual environments | [Learn!](https://github.com/alyssonalvaran/WWCodeManila-Python/blob/master/flask/discussions/02%20-%20Setting%20up%20Flask%20and%20virtual%20environments.MD)
+| 03 | Building my first Flask app | [Learn!](https://github.com/alyssonalvaran/WWCodeManila-Python/blob/master/flask/discussions/03%20-%20Building%20my%20first%20Flask%20app.MD)
 | 04 | Creating URL routes
 | 05 | Styling templates and passing variables
 | 06 | Integrating databases using SQLite
