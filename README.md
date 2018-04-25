@@ -58,13 +58,18 @@ If you have questions, please feel free to ask and participate on our [Gitter gr
 - [CodingGame](https://www.codingame.com/)
 
 ### Web Development with Flask
-- Intro, Setup, Running our first Flask web application
-- URL routes, styling templates (using Jina), Passing variables
-- Update random quote generator to a quote search engine
-- More on forms, cookies and sessions
-- Deploying the app via Heroku or similar mediums
-
-*Resources*: [Github](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/flask/discussions), [Gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Python/tree/master/flask/discussions)
+| # | Topic | Github | Gitlab  | Others |
+| - | ----- | ------ | ------- | ------ |
+| 01 | Introduction
+| 02 | Installation
+| 03 | Building my first Flask app
+| 04 | Creating URL routes
+| 05 | Styling templates and passing variables
+| 06 | Integrating databases using SQLite
+| 07 | Forming forms
+| 08 | Using cookies and sessions
+| 09 | Deploying my app
+| 10 | Wrapping up
 
 ### Web Development with Django
 Soon!
