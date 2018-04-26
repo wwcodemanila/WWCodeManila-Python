@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="block1">
+	<h1>Search Results</h1>
+	<h2>You searched for: {{ search.upper() }}</h2>
+	<ul>
+	{% for result in results %}
+		<li>{{ result }}</li>
+	{% endfor %}
+	</ul>
+</div>
+
+{% endblock %}
