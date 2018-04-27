@@ -1,0 +1,3 @@
+[submodule "flask/exercises/portfolio-url-routes"]
+	path = flask/exercises/portfolio-url-routes
+	url = https://github.com/alyssonalvaran/portfolio-url-routes
