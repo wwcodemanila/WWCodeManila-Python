@@ -1,0 +1,3 @@
+[submodule "exercises/portfolio-url-routes"]
+	path = exercises/portfolio-url-routes
+	url = https://github.com/alyssonalvaran/portfolio-url-routes
