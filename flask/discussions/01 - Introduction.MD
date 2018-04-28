@@ -6,7 +6,11 @@ Are you ready to enter the wonderful world of web development?
 - [x] I have Python installed in my computer.
 - [x] I'm familiar with the basics concepts of Python.
 
-If you answered yes to all three questions, then brace yourself, hang on to your handy Flask -- err, weapon, and let the adventure begin!
+If you answered **yes** to all three questions, then brace yourself, hang on to your handy Flask -- err, weapon, and let the adventure begin!
+
+## Final Output
+
+This course will help you create your own **portfolio** while exploring Flask. By the end of this course, you should be able to create and deploy your Flask web app.
 
 ## Flask in a nutshell
 Flask is a microframework for Python based on Werkzeug (toolkit), Jinja 2 (templating engine) and good intentions. For more information, visit the official Flask site: http://flask.pocoo.org/.
@@ -33,7 +37,7 @@ Flask is a microframework for Python based on Werkzeug (toolkit), Jinja 2 (templ
 * Reddit
 * Uber
 * Netflix
-* ...and a lot more! http://flask.pocoo.org/community/poweredby/
+* ...and [a lot more](http://flask.pocoo.org/community/poweredby/)! 
 
 ## References
 * http://flask.pocoo.org/docs/0.10/foreword/#what-does-micro-mean

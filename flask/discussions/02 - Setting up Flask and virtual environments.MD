@@ -1,39 +1,74 @@
-Before you begin, make sure you have [Python](https://www.python.org/downloads/) installed and ready-to-use.
+##  Goals
 
-###  Prerequisites
-
-- [ ] Understand the importance of virtual environment
+- [ ] Understand the importance of virtual environments
 - [ ] Install and create a virtual environment
 - [ ] Install and use `virtualenvwrapper`
-- [ ] Create and run a simple Flask application
+- [ ] Install Flask through pip
 
-![Simple Flask application](https://pythonspot-9329.kxcdn.com/wp-content/uploads/2015/03/python-flask-webapp.png)
+## Virtual Environments
 
-### Virtual Environment
+A **virtual environment** is a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages. It is used to isolate a particular project to avoid conflicts with the requirements of another project. **`virtualenv`** is a tool used to create Python virtual environments.
 
-Since we will be using Flask together with several extensions, it is recommended to create a [virtual environment](https://pypi.python.org/pypi/virtualenv) to isolate our Python environment and avoid affecting our main Python installation.
+## Installing 'virtualenv'
 
-`Virtualenv` is a useful tool that creates isolated Python development environments where you can do all your development work.
-
-Open your terminal or console and check if your sytem already has `virtualenv`:
+Check if `virtualenv` already exists in your system through your terminal or console:
 
 ```shell
 $ virtualenv --version
 ```
 
-If you see a version number, that means you already have it installed and you may now skip to Flask installation. If not, install it using this:
+If you see a version number, that means you already have it installed and may now proceed to the next step. Otherwise, install `virtualenv` through the Python package manager, a.k.a. `pip`:
 
 ```shell
-$ easy_install virtual env
-or
 $ pip install virtualenv
-or
-$ apt-get install python-virtualenv
 ```
 
-In case you don't have `easy_install` on your computer, install it by following the instructions [here](https://pypi.python.org/pypi/setuptools).
+Visit this [link](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) for more info on how to make sure you have the latest version of pip installed.
 
-Lastly, install `virtualenvwrapper` to make working with virtual environments much more pleasant (especially for Windows users), since it also places all of your virtual environments a single location.
+## Working with 'virtualenv'
+
+To create a virtual environment, go to your project's directory and run `virtualenv`:
+
+```shell
+cd path/to/directory
+virtualenv env
+```
+
+The second argument refers to the location where you want to create the `virtualenv`. Generally, you can just create this in your project and call it `env`. `virtualenv` will create a virtual Python installation in the `env` folder.
+
+**Note**: Don't forget to exclude your `virtualenv` directory from your version control system using .gitignore or similar.
+
+To activate your `virtualenv`:
+
+```shell
+Windows
+$ .\env\Scripts\activate
+
+Linux and macOS
+$ source env/bin/activate
+```
+
+To confirm if you're in the `virtualenv` by checking the location of your Python interpreter, which should point to the `env` directory:
+
+```shell
+Windows
+$ where python
+
+Linux and macOS
+$ which python
+```
+
+As long as your `virtualenv` is activated, pip will install packages into that specific environment and you'll be able to import and use packages in your Python application.
+
+To leave your `virtualenv`, simply run:
+
+```shell
+$ deactivate
+```
+
+## Bonus: [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/)
+
+To make working with virtual environments easier (especially for Windows uers), you can use `virtualenvwrapper`, which is a set of extensions to the `virtualenv` tool. It also places all of your virtual environments in a single location.
 
 ```shell
 Mac:
@@ -45,26 +80,48 @@ Windows:
 $ pip install virtualenvwrapper-win
 ```
 
-### Flask
-
-Once you've installed `virtualenv`, create a new isolated development environment:
+Once you've installed `virtualenvwrapper`, create a new isolated development environment:
 
 ```shell
-mkvirtualenv HelloWorld
+mkvirtualenv portfolio
 ```
 
-This produces a folder named `HelloWorld` with a clean copy of Python inside.
+This produced a folder named `portolio` inside the `Envs` folder with a clean copy of Python inside.
 
-You may now begin using your newly created virtual environment by activating it:
+To activate `virtualenv` with `virtualenvwrapper`:
 
 ```shell
-$ workon HelloWorld
+$ workon portfolio
 ```
 
-Once activated, install Flask through `pip`:
+You may also check the list of existing virtual environments in your `Envs` folder by typing:
 
 ```shell
-$ pip install Flask
+$ workon
+```
+
+## Installing Flask
+
+To install flask through `pip`, just run:
+
+```shell
+$ pip install flask
+```
+
+## Saving packages
+
+To save the list of packages installed in your environment for easier reproduction:
+
+```shell
+$ pip freeze > requirements.txt
+```
+
+This will save what you've installed so far in a text file named `requirements.txt`.
+
+To install the packages listed in a `requirements.txt` file:
+
+```shell
+$ pip install -r requirements.txt
 ```
 
 ### Getting crazy? Need help?
