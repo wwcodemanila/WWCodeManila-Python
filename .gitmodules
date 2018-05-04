@@ -4,3 +4,6 @@
 [submodule "flask/exercises/portfolio-templates-and-variables"]
 	path = flask/exercises/portfolio-templates-and-variables
 	url = https://github.com/alyssonalvaran/portfolio-templates-and-variables
+[submodule "flask/exercises/portfolio-hello-world"]
+	path = flask/exercises/portfolio-hello-world
+	url = https://github.com/alyssonalvaran/portfolio-hello-world
