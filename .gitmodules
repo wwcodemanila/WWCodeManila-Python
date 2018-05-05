@@ -7,3 +7,6 @@
 [submodule "flask/exercises/portfolio-hello-world"]
 	path = flask/exercises/portfolio-hello-world
 	url = https://github.com/alyssonalvaran/portfolio-hello-world
+[submodule "flask/exercises/portfolio-sqlite3"]
+	path = flask/exercises/portfolio-sqlite3
+	url = https://github.com/alyssonalvaran/portfolio-sqlite3
