@@ -1,6 +1,6 @@
 ![logo](_media/logo.png)
 
-# Ruby on Rails Study Group
+# Python Study Group
 
 [Github](https://github.com/wwcodemanila/WWCodeManila-Ruby.RubyOnRails)
 [Meetup](https://meetup.com/Women-Who-Code-Manila/)

@@ -1,4 +1,4 @@
-- Getting Started
+<!-- - Getting Started
   - [About the Study Group](README.md)
   - [Install Tools](getting_started/install_tools.md)
 
@@ -12,4 +12,4 @@
 
 - Resources
   - [Ruby Conventions](resources/ruby_conventions.md)
-  - [References](resources/references.md)
+  - [References](resources/references.md) -->
