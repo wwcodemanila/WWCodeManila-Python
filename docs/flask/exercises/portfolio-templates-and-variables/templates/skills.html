@@ -1,0 +1,22 @@
+<!-- Use extends to specify the filename of the parent/layout page. -->
+{% extends "layout.html" %}
+
+<!-- Content added in between the block tags are loaded with the layout page specified. -->
+{% block body %}
+
+<h1>Welcome to the Skills page.</h1>
+
+<p>
+<!-- This is an example of an if-else statement using Jinja. -->
+<!-- Syntax: {% if condition %}...{% else %}...{% endif %} -->
+{% if username == None %}
+	Hi, stranger. What's your name?
+{% else %}
+	<!-- This is how you access a passed variable. -->
+	<!-- Syntax: {{ variable_name }} -->
+	<!-- The title keyword has been added to make the first letter of each word capitalized. -->
+	Hi, {{username|title}}! 
+{% endif %}
+</p>
+
+{% endblock %}
