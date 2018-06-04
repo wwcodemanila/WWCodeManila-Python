@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h1>Welcome to the Projects page.</h1>
+
+<h3> These are what I've done so far:</h3>
+<ul>
+<!-- This is an example of a for loop using Jinja. -->
+<!-- Syntax: {% for var in list %}...{% endfor %} -->
+{% for p in projects %}
+	<li>{{ p }}</li>
+{% endfor %}
+</ul>
+
+<p>... and <b>{{ project }}</b> is the one that I enjoyed coding the most.</p>
+
+{% endblock %}

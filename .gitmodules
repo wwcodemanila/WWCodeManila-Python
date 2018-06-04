@@ -1,0 +1,12 @@
+[submodule "flask/exercises/portfolio-url-routes"]
+	path = flask/exercises/portfolio-url-routes
+	url = https://github.com/alyssonalvaran/portfolio-url-routes
+[submodule "flask/exercises/portfolio-templates-and-variables"]
+	path = flask/exercises/portfolio-templates-and-variables
+	url = https://github.com/alyssonalvaran/portfolio-templates-and-variables
+[submodule "flask/exercises/portfolio-hello-world"]
+	path = flask/exercises/portfolio-hello-world
+	url = https://github.com/alyssonalvaran/portfolio-hello-world
+[submodule "flask/exercises/portfolio-sqlite3"]
+	path = flask/exercises/portfolio-sqlite3
+	url = https://github.com/alyssonalvaran/portfolio-sqlite3

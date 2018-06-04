@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Your Name</title>
+        
+        <!-- Use url_for() to get the relative path of a file -->
+        <!-- Syntax: url_for(filetype, filename=path_to_file) -->
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="{{ url_for('home') }}">Your Name</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="{{ url_for('about') }}">About</a></li>
+					<li><a href="{{ url_for('skills') }}">Skills</a></li>
+					<li><a href="{{ url_for('projects') }}">Projects</a></li>
+					<li><a href="{{ url_for('contact') }}">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Blocks are used to load dynamic content on a static page. -->
+		<!-- Syntax: {% block variable_name %}{% endblock %} -->
+		{% block body %}{% endblock %}
+
+        <script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	</body>
+</html>
