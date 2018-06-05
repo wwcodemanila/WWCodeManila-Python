@@ -1,10 +1,10 @@
 - Women Who Code Manila
-  - [About WWCode Manila](wwcodemanila/about.md)
-  - [Study Groups](wwcodemanila/study_groups.md)
+    - [About WWCode Manila](wwcodemanila/about.md)
+    - [Study Groups](wwcodemanila/study_groups.md)
 
 - Getting Started
-    - [Installation](getting_started/installation_guide.MD)
-    - [Run a basic Python program](getting_started/warm_up.MD)
+    - [Installation](getting_started/installation_guide.md)
+    - [Run a basic Python program](getting_started/warm_up.md)
     - [Sharing your work](getting_started/exercise_upload_step.md)
   
 - Basic Concepts
