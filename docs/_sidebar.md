@@ -10,7 +10,8 @@
 - Basic Concepts
     - [Variables, Arithmetic Operations, Keyboard Input](basic_concepts/variables.md)
     - [Let's go Git!](git/README.md)
-    - [Intro to PEP8, Strings](basic_concepts/pep8_strings.MD)
+    - [Strings pa more!](basic_concepts/strings.md)
+    - [PEP8](basic_concepts/pep8.md)
     - [Lists](basic_concepts/lists.MD)
     - [Conditional Statements](basic_concepts/conditional_statements.MD)
     - [Loops](basic_concepts/loops.MD)

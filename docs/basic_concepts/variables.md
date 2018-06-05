@@ -153,7 +153,7 @@ customer their total bill and payment amount and tell them their change
 
 > You can use and copy [exercise01.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/docs/exercises/exercises01/exercises01.py) as template.
 
-> Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
+> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
 
 > Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
 
