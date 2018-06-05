@@ -1,9 +1,12 @@
+- Women Who Code Manila
+  - [About WWCode Manila](wwcodemanila/about.md)
+  - [Study Groups](wwcodemanila/study_groups.md)
+
 - Getting Started
     - [Installation](getting_started/installation_guide.MD)
     - [Run a basic Python program](getting_started/warm_up.MD)
     - [Sharing your work](getting_started/exercise_upload_step.md)
-
-
+  
 - Basic Concepts
     - [Variables, Arithmetic Operations, Keyboard Input](basic_concepts/variables.MD)
     - [Let's go Git!](git/README.md)
