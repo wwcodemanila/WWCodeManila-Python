@@ -8,7 +8,7 @@
     - [Sharing your work](getting_started/exercise_upload_step.md)
   
 - Basic Concepts
-    - [Variables, Arithmetic Operations, Keyboard Input](basic_concepts/variables.MD)
+    - [Variables, Arithmetic Operations, Keyboard Input](basic_concepts/variables.md)
     - [Let's go Git!](git/README.md)
     - [Intro to PEP8, Strings](basic_concepts/pep8_strings.MD)
     - [Lists](basic_concepts/lists.MD)
