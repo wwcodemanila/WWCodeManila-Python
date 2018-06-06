@@ -26,3 +26,6 @@
     - [List comprehension](https://hackernoon.com/list-comprehension-in-python-8895a785550b)
     - [Generators](https://anandology.com/python-practice-book/iterators.html)
     - [Decorators](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
+
+- Resources
+    - [References](resources/references.md)
