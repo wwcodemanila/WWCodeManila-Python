@@ -33,6 +33,9 @@ print(shout.upper())
 Given a person's firstname and lastname, can we get the name initial?
 ![Name initials as avatar](https://i.stack.imgur.com/vBvgj.png)
 
+
+!> Experiment on how to print the name initials with the code below!
+
 ```python
 firstname = "Fred"
 lastname = "Jowson"
@@ -88,7 +91,8 @@ Hence, the code above resulted to an error!
 ## Challenge
 This summer, Aling Nena’s Sari-sari store wants to implement a reward system
 where customers can redeem a reward by texting the following:
-`<Reward number 1-9> <Customer’s name> <Gender f or m>`
+
+<**Reward number 1-9**> <**Customer’s name**> <**Gender f or m**>
 
 ```shell
 >> Please enter text: 1 nicole i. tibay f
@@ -96,8 +100,8 @@ where customers can redeem a reward by texting the following:
 
 The system will then reply the following:
 
-`Hi <Customer’s name first letters upper case>! You have successfully redeem
-reward #<reward number> - <reward>! Thank you for choosing Aling Nena’s Sari-sari store.`
+Hi <**Customer’s name Capitalized**>! You have successfully redeem
+reward #<**reward number**> - <**reward**>! Thank you for choosing Aling Nena’s Sari-sari store.
 
 ```shell
 >> Hi Nicole I. Tibay! You have successfully redeem reward #1 - Coke sakto!

@@ -1,4 +1,3 @@
-## Conditional Statements
 In our everyday living, we perform action based on a decision, situation or condition:
 ```shell
 Take a taxi if we are already late for work; else, we will take the jeepney.
@@ -15,8 +14,15 @@ Add points to a customer if s/he presented a reward card.
 Sends out SMS if customer has enough load, else prompt for an insufficient balance message.
 ```
 
-Python offers decison making statements in order for us to conditionally execute a block of code. But before introducing those, let us recall that an action will only be executed if it meets a `condition` or `situation`, expressions that evaluates to `True` or `False`. Let's try to code some expressions!
+Python offers decision making statements in order for us to conditionally execute a block of code. But before introducing those, let us recall that an action will only be executed if it meets a `condition` or `situation`, expressions that evaluates to `True` or `False`. Let's try to code some expressions!
+
+## Conditional Expressions
+
+!> Conditional expressions are expressions that evaluates to either True or False.
+
 ```python
+# EXPRESSIONS
+
 # Using literal values
 is_late = True
 is_card_presented = False
@@ -35,7 +41,11 @@ customer_load > 0  # Evaluates to True
 ```
 
 Expressions? Checked! Let's dive to some Python decision making statements:
+
+## Conditional Statements
+
 * If statements
+
 ```python
 is_card_presented = False
 customer_points = 10
@@ -45,6 +55,7 @@ if is_card_presented:
 ```
 
 * If...else statements
+
 ```python
 def send_message(message):
     # This is a function, we will learn more about this on our next session!
@@ -63,11 +74,13 @@ else:
         print('You have insufficient balance.')
 ```
 
-### Takeaways
+
+## Takeaways
 * Notice how we group the actions(block of codes) above? We use the colon `:` to indicate the start of an indented block of code and grouped them by `whitespaces`.
 * PEP8 recommends using `4` whitespaces for code indentation.
 
-### Challenge
+
+## Challenge
 Aling Nena stores her soft drink stock on two refrigerators.
 She stores `Coke, Sprite and Royal` on her Sari-sari store's refrigerator while
 `RC and 7UP` can be found on her house's refrigerator.
@@ -81,36 +94,15 @@ on the house's ref or none. If the customer buys a soft drink brand that is:
 3. not sold by her, she will respond `Sorry we do not sell that. We only have <input here the soft drink brands>`
     
 
-Just some notes:
-* Please see use and copy this [template](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/conditional_statements/conditional01.py):
+> Please see use and copy this [template](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/docs/exercises/conditional_statements/conditional01.py):
 
-```
-Gitlab project -> exercises -> conditional_statements
-```
+> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
 
-* Please rename the file as `<first name initial><middle name initial><last name>_conditional01.py`. For example, John M. Doe will name his file as `jmdoe_conditional01.py`.
-* Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
-  * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
-  * Please upload or push the file in your GIT repository.
-  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
-  * Share the link of your work on the issue.
-* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-* Enjoy!
+> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+
+> Enjoy!
 
 
 ## Put your thinking cap on!
 
 - What are the different ways to write conditional statements?
-
-And add more!
-
-
-## Getting crazy? Need help?
-If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
-
-
-## Further Challenge
-* [Hackerrank](https://www.hackerrank.com/)
-* [Checkio](https://checkio.org/)
-* [Codefights](https://codefights.com/)
-* [Codinggame](https://www.codingame.com/)
