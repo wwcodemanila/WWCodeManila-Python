@@ -53,21 +53,8 @@ Here's an image to guide you with indexing.
 
 Let's experiment more!
 
-```python
-firstname = "Adam"
-lastname = "Dough"
-# We can access each character by using <your string>[<index>]
-# Each character in a string is represented by an index number
-# starting from 0
-print(firstname[0], firstname[1])
-print(lastname[0], lastname[1])
+[my_strings](samples/my_strings.py ':include :type=code python')
 
-# TRY TO PRINT THE LAST CHARACTER
-#
-# TRY TO PRINT AN INDEX GREATER THAN THE LENGTH BY UNCOMMENTING THE CODE BELOW
-# firstname[10]
-
-```
 
 ## Immutable
 
@@ -108,51 +95,13 @@ reward #<**reward number**> - <**reward**>! Thank you for choosing Aling Nena’
 Thank your for choosing Aling Nena’s Sari-sari store”
 ```
 
-> Let’s assume that customers will always comply with the text format andgive 1-9 number.
+> Let’s assume that customers will always comply with the text format and give 1-9 number.
 
 !> Please use below template
 
-```python
-""" Aling Nena's Reward System Challenge
-Author:
-Description: This summer, Aling Nena’s Sari-sari store wants to implement a
-reward system where customers can redeem a reward by texting the following:
-<Reward number 1-9> <Customer’s name> <Gender f or m>
+[filename](exercises/strings/strings01.py ':include :type=code python')
 
->> Please enter text: 1 nicole i. tibay f
-
-The system will then reply the following:
-Hi <Customer’s name first letters upper case>! You have successfully redeem
-reward #<reward number> - <reward>! Thank you for choosing Aling Nena’s
-Sari-sari store.
-
->> Hi Nicole I. Tibay! You have successfully redeem reward #1 - Coke sakto!
-Thank you for choosing Aling Nena’s Sari-sari store.
-"""
-
-# You can access this by: rewards[<index>]
-# Just like strings the index starts with 0
-rewards = [
-    "Coke sakto",  # index 0
-    "Boy Bawang",  # index 1
-    "15pcs. Yucky candy",  # index 2
-    "15pcs. Pintura candy",  # index 3
-    "15PHP load",  # index 4
-    "3 pcs. Dove conditioner",  # index 5
-    "Cottonbuds",  # index 6
-    "One sheet of Biogesic",  # index 7
-    "100mL Pepper/Pintura",  # index 8
-]
-
-# Build your code below
-
-```
-
-> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
-
-> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-
-> Enjoy!
+[challenge_partial](../challenge_partial.md ':include')
 
 
 ## Put your thinking cap on!

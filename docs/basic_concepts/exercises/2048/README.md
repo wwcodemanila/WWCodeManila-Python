@@ -20,30 +20,30 @@ Let the game begin!
 Please use the files here for your project.
 
 * [Instruction](https://github.com/enixdark/principlescomputing-001/blob/master/Week0/Instructions.md)
-* [Starter kit](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/exercises/2048)
+* [Starter kit](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/docs/basic_concepts/exercises/2048)
+    * logic.py
+    * poc_2048_gui.py
+    * requirements.txt
+   
 * Install the required library for the game GUI:
 
-```python
+```shell
 pip install simpleguitk
 ```
 
 or
 
-```python
+```shell
 pip install -r requirements.txt
 ```
 
 * To run:
 
-```python
+```shell
 python logic.py
 ```
 
 
 !> Put your working files(e.g. logic.py, poc_2048_gui.py) under one `2048` folder.
 
-> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
-
-> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-
-> Enjoy!
+[challenge_partial](../../../challenge_partial.md ':include')

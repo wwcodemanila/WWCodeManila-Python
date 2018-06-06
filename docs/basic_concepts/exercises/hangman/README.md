@@ -23,15 +23,14 @@ Hang in there and let the game begin!
 You can use the template file here for this exercise.
 
 * [Live game example](https://drive.google.com/open?id=1CLafYAmaxWOvoUkOJvfx94dHEp87CnqT)
-* [Template](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/docs/exercises/hangman/hangman.py)
+* Template
+
+[template](hangman.py ':include :type=code python')
+
 * To run:
 
 ```shell
 python hangman.py
 ```
 
-> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
-
-> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-
-> Enjoy!
+[challenge_partial](../../../challenge_partial.md ':include')

@@ -153,22 +153,11 @@ customer their total bill and payment amount and tell them their change
 
 !> Please use below template
 
-```python
-""" The Challenge
-Author:
-Description: Aling Nena’s Sari-sari store wants a robot that will ask the
-customer their total bill and payment amount and tell them their change
-(for now, we can allow negative change).
-"""
+[filename](exercises/variables/variables01.py ':include :type=code python')
 
-# Build your code below
-```
+[challenge_partial](../challenge_partial.md ':include')
 
-> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
 
-> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-
-> Enjoy!
 
 ## Put your thinking cap on!
 

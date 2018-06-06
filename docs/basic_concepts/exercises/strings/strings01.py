@@ -28,3 +28,5 @@ rewards = [
     "One sheet of Biogesic",  # index 7
     "100mL Pepper/Pintura",  # index 8
 ]
+
+# Build your code below

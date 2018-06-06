@@ -30,11 +30,7 @@ Rewrite the code above to handle error.
 
 > Be creative! *Tip*: You may just notify the user for his/her mistake or ask him/her for a new input ;)
 
-> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
-
-> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-
-> Enjoy!
+[challenge_partial](../challenge_partial.md ':include')
 
   
 ## Deep Dive
