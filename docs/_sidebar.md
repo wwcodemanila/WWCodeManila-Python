@@ -27,5 +27,17 @@
     - [Generators](https://anandology.com/python-practice-book/iterators.html)
     - [Decorators](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 
+- Flask
+    - [Introduction](flask/discussions/01_introduction.md)
+    - [Setting up Flask and virtual environments](flask/discussions/02_setup.md)
+    - [Building my first Flask app](flask/discussions/03_my_first_flask_app.md)
+    - [Creating URL routes](flask/discussions/04_url_routes.md)
+    - [Styling templates and passing variables](flask/discussions/05_templates_and_variables.md)
+    - [Integrating databases using SQLite](flask/discussions/06_sqlite.md)
+    - [Forming forms](flask/discussions/07_forming_forms.md)
+    - [Using cookies and sessions](flask/discussions/08_cookies_sessions.md)
+    - [Deploying my app](flask/discussions/09_deployment.md)
+    - [Wrapping up](flask/discussions/10_wrapping_up.md)
+    
 - Resources
     - [References](resources/references.md)
