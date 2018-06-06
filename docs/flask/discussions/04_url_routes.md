@@ -97,6 +97,3 @@ Your portfolio now contains 5 main pages:
 * Contact
 
 Feel free to customize them and their contents!
-
-### Getting crazy? Need help?
-If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).

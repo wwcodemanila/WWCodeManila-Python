@@ -66,9 +66,9 @@ To leave your `virtualenv`, simply run:
 $ deactivate
 ```
 
-## Bonus: [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/)
+## Bonus: virtualenvwrapper
 
-To make working with virtual environments easier (especially for Windows uers), you can use `virtualenvwrapper`, which is a set of extensions to the `virtualenv` tool. It also places all of your virtual environments in a single location.
+To make working with virtual environments easier (especially for Windows uers), you can use [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/), which is a set of extensions to the `virtualenv` tool. It also places all of your virtual environments in a single location.
 
 ```shell
 Mac:
@@ -123,6 +123,3 @@ To install the packages listed in a `requirements.txt` file:
 ```shell
 $ pip install -r requirements.txt
 ```
-
-### Getting crazy? Need help?
-If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).

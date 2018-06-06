@@ -264,6 +264,3 @@ This displays a bulleted list of projects and the randomly selected project as f
 ## Congratulations!
 
 You're halfway through the entire tutorial. Now try to create a template for all of your existing pages and feel free to customize them and their contents!
-
-### Getting crazy? Need help?
-If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
