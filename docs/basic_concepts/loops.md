@@ -1,4 +1,3 @@
-## Loops
 Can you tell what the code below does?
 ```python
 continents = ['Africa', 'Antarctica', 'Asia', 'Australia/Oceania', 'Europe', 'North America', 'South America']
@@ -17,7 +16,9 @@ Yes! Python loops allows us to:
 * Iterate through the list and perform an action to each element of the list
 * Execute a block of code multiple times
 
-##### For loop
+## Syntax
+
+### For loop
 The `for` loop has the ff. syntax:
 ```shell
 for <item> in <list>:
@@ -40,7 +41,7 @@ for continent in continents:
 # South America
 ```
 
-##### While loop
+### While loop
 The `while` loop has the ff. syntax:
 ```shell
 while <expression>:
@@ -56,9 +57,10 @@ while count > 0:
 print('Happy New Year!')
 ```
 
-### Takeaways
+## Takeaways
 * We can use `break`, `continue` and `pass` as control statements in the loop. Google it!
-* `Infinite loop`: Use `while` loops with caution because if the expression did **NOT** resolve to a `False` the loooooooooooooop will go on forever just like below.
+
+!> Beware of Infinite loop! Use `while` loops with caution because if the expression did **NOT** resolve to a `False` the loooooooooooooop will go on forever just like below.
 
 ```python
 is_hungry = True
@@ -66,7 +68,9 @@ while is_hungry:
     print('Vikings here I come!')
 
 ```
-### Challenge
+
+
+## Challenge
 During closing, Aling Nena counts from her vault the day's total income and
 also the total amount of all her paper bills.
 
@@ -80,36 +84,49 @@ Example:
 >> The total amount of your paper bills is 2920.
 ```
 
-Just some notes:
-* Please use and copy [loops01.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/loops/loops01.py) as your template.
 
-```shell
-Git project -> exercises -> loops01 -> loops01.py
+!> Please use below template
+
+```python
+""" Aling Nena's Cashier Challenge
+Author:
+Description: During closing, Aling Nena counts from her vault the day's total income and
+also the total amount of all her paper bills.
+
+Help Aling Nena count her total income and total amount of her paper bills
+from a list of cash money and using a loop!
+"""
+
+
+def is_coins(money):
+    """ Determine if the money is a coin
+    :param money: (Integer)
+    :return: (Boolean)
+
+    Examples:
+        >>>  print(is_coins(20))
+        False
+        >>>  print(is_coins(1))
+        True
+    """
+    if money < 20:
+        return True
+    return False
+
+
+cash_on_vault = [1, 5, 100, 10, 50, 50, 20, 5, 1, 1000, 1000, 500, 5, 200]
+
+# Build your code below
+
 ```
 
-* Please rename the file as `<first name initial><middle name initial><last name>_loops01.py`. For example, John M. Doe will name his file as `jmdoe_loops01.py`.
-* Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
-  * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
-  * Please upload or push the file in your GIT repository.
-  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
-  * Share the link of your work on the issue.
-* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-* Enjoy!
+> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
+
+> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+
+> Enjoy!
 
 ## Put your thinking cap on!
 
 - What are the specific characteristics of the `for` and `while` loop?
 - What is the effect of `break`, `continue` and `pass` control statements in a loop?
-
-And add more!
-
-
-## Getting crazy? Need help?
-If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
-
-
-## Further Challenge
-* [Hackerrank](https://www.hackerrank.com/)
-* [Checkio](https://checkio.org/)
-* [Codefights](https://codefights.com/)
-* [Codinggame](https://www.codingame.com/)

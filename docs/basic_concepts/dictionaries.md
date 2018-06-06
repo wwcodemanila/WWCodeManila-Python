@@ -1,7 +1,4 @@
-## Dictionaries
-
 Imagine that we will create a simple PostalPH bot that allows a user to ask his/her postal code giving the bot his/her area.
-
 
 ```
 PostalPHBot: Hello! What is your area?
@@ -35,7 +32,7 @@ elif area == 'intramuros':
 
 ```
 
-#### Creation and Value Access
+## Creation and Value Access
 
 Good thing, Python allows us to store collections for mapping or associating a `key` with a `value`, just like how a dictionary allows us to search for a word(the key) and its meaning(the value)!
 Python dictionaries are collections just like lists but instead of having numbers as its index, we can use strings, numbers or tuples instead. Let's try to use dictionary to our postal bot!
@@ -85,7 +82,7 @@ area = input('Hello! What is your area?').lower()
 print('Hi! Your postal area is {}'.format(postal_mapping[area]))
 ```
 
-#### Dictionary update and methods
+## Dictionary update and methods
 
 Postal Bot update! Let's add Quaipo to our dictionary and also, remove the odd Inagi-shi and Hino-shi as we found out it was for PostJP bot not PostPH bot!
 
@@ -116,7 +113,7 @@ print('Removed {} from mapping'.format(deleted_value))
 print('We now have a total of {} postal mapping'.format(len(postal_mapping)))
 ```
 
-### Challenge
+## Challenge
 Good job! You are nearly complete in knowing some basic programming concepts using Python! Let's get our fingers and mind working!
 
 Just like in grocery stores where items where scanned one by one and the
@@ -159,21 +156,77 @@ spam 115.25 * 1 = 115.25
 5 items --------- 154.25
 ```
 
-Just some notes:
-* Please use and copy [dictionaries01.py](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercises/dictionaries/dictionaries01.py) as template.
+
+!> Please use below template
+
+```python
+""" Aling Nena's Receipt Challenge
+Author:
+Description: Just like in grocery stores where items where scanned one by one and the
+total amount due is summed, please help Aling Nena's Sari-sari store
+to compute a customer's total order amount and print the receipt by:
+* Input the customer's products
+* The product dictionary contains Aling Nena's products and maps it's price.
+* If the product name is NOT in her list, just print 'Item <product name> void!'
+  and skip it from the computation of total amount due.
+* If the product is in the list, please print current purchased products and
+  their quantity.
+* If done punching the items:
+    - Print each purchased products, it's quantity, price, total price (quantity * price)
+    - Print the total items and total amount due.
+
+@example
+Item name:  sunsilk
+{'sunsilk': 1}
+Are you done? Press y to finish: n
+Item name:  SUNsilk
+{'sunsilk': 2}
+Are you done? Press y to finish: n
+Item name:  ligo
+{'sunsilk': 2, 'ligo': 1}
+Are you done? Press y to finish: n
+Item name:  Spam
+{'sunsilk': 2, 'ligo': 1, 'spam': 1}
+Are you done? Press y to finish: n
+Item name:  test
+Item test void!
+Are you done? Press y to finish: n
+Item name:  ligo
+{'sunsilk': 2, 'ligo': 2, 'spam': 1}
+Are you done? Press y to finish: y
+***** PRINTING YOUR RECEIPT *****
+sunsilk 7.5 * 2 = 15.0
+ligo 12.0 * 2 = 24.0
+spam 115.25 * 1 = 115.25
+5 items --------- 154.25
+"""
+
+products = {
+    'sunsilk': 7.50,
+    'dove': 8.00,
+    'tide': 12.50,
+    'coke': 45.75,
+    'sprite': 45.75,
+    'spam': 115.25,
+    'ligo': 12.00
+}
+
+# Let's punch the customer's items!
+is_done = 'n'
+while is_done != 'y':
+    item = input('Item name: ').lower()
+    # Check if done punching items
+    is_done = input('Are you done? Press y to finish:').lower()
+
+# Build your code below
 
 ```
-Gitlab project -> exercises -> dictionaries
-```
 
-* Please rename the file as `<first name initial><middle name initial><last name>_dictionaries01.py`. For example, John M. Doe will name his file as `jmdoe_dictionaries01.py`.
-* Share your work and contribute to the community! Complete how-to share your work instruction [here](https://github.com/wwcodemanila/WWCodeManila-Python/blob/master/exercise_upload_step.md).
-  * Create a Github account if none yet and create a repository for wwcode-python. You will upload your works there.
-  * Please upload or push the file in your GIT repository.
-  * Open an issue in our repository named `<Your name> - <topic>`. For example, `John Doe - Loops`.
-  * Share the link of your work on the issue.
-* Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
-* Enjoy!
+> Share your work and contribute to the community! Complete how-to share your work instruction [here](getting_started/exercise_upload_step.md).
+
+> Present your work in front (#ApplaudHer)! You can also share your study group experience in social media and tag us!
+
+> Enjoy!
 
 
 ## Put your thinking cap on!
@@ -182,16 +235,3 @@ Gitlab project -> exercises -> dictionaries
 - What are the allowed keys of a dictionary? What attribute do they share in common?
 - How do you check if a certain key exists in a dictionary?
 - How do you loop through a dictionary, getting both it's key and value pair?
-
-And add more!
-
-
-## Getting crazy? Need help?
-If you have questions, please feel free to ask and participate on our [Gitter group](https://gitter.im/WWCodeManila/Python).
-
-
-## Further Challenge
-* [Hackerrank](https://www.hackerrank.com/)
-* [Checkio](https://checkio.org/)
-* [Codefights](https://codefights.com/)
-* [Codinggame](https://www.codingame.com/)
