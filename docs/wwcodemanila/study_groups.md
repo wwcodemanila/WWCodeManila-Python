@@ -13,3 +13,7 @@ Visit our [Meetup page](https://bit.ly/wwcodemanilameetups) for the schedule of 
 - If you have an idea, **share it**
 - **Make friends** and learn from the other participants
 - **Do not** recruit or promote your business
+
+## Code of conduct
+
+Everyone joining this study group and other Women Who Code events must follow our [code of conduct](https://github.com/WomenWhoCode/guidelines-resources/blob/master/code_of_conduct.md).
