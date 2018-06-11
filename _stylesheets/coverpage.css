@@ -1,0 +1,12 @@
+section.cover a.link-icon + a.link-icon {
+  margin-left: 10px;
+}
+
+section.cover a.link-icon img {
+  width: 32px;
+}
+
+section.cover h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* semibold */
+}
