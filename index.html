@@ -1,9 +1,13 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Women Who Code Manila Python Study Group</title>
+    <!--
+      UPDATE THIS:
+
+      Change to your study group name:
+      "Women Who Code Manila ____________ Study Group"
+    -->
+    <title>Women Who Code Manila Ruby Study Group</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
@@ -17,14 +21,24 @@
     <div id="app"></div>
     <script>
       window.$docsify = {
-        name: 'Python Study Group',
+        /*
+           UPDATE THIS:
+
+           Change to your study group name.
+
+           This will be shown below the search bar in the sidebar
+         */
+        name: 'Ruby Study Group',
         // Women Who Code teal
         themeColor: '#007a7b',
         // Automatically scroll to top on page changes
         auto2top: true,
         // Page elements
         coverpage: '_coverpage.html',
+        // Loads _sidebar.md
         loadSidebar: true,
+        // Automatically adds title to pages
+        // ref: https://docsify.js.org/#/configuration?id=autoheader
         autoHeader: true,
         maxLevel: 4,
         subMaxLevel: 2,
@@ -43,8 +57,19 @@
       }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <!-- Activates search -->
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-    <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
+    <!-- Allows copying of embedded code to clipboard -->
     <script src="//unpkg.com/docsify-copy-code"></script>
+    <!--
+      UPDATE THIS:
+
+      Only include the prism plugin you need for syntax highlighting.
+
+      You can check https://github.com/PrismJS/prism/tree/gh-pages/components for available syntax highlighters.
+      Check https://docsify.js.org/#/language-highlight for more details.
+
+    -->
+    <script src="//unpkg.com/prismjs/components/prism-ruby.min.js"></script>
   </body>
 </html>

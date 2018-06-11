@@ -38,6 +38,7 @@ Everyone joining this study group and other Women Who Code events must follow ou
 ## Relevant links
 
 - [Gitter Chat](https://gitter.im/WWCodeManila/Python): Interact with the community. You can share something about Python, or ask help if you're stuck on a problem.
+- [Github](https://github.com/wwcodemanila/WWCodeManila-Python): View study group code
 - [Meetup](https://bit.ly/wwcodemanilameetups): Get updated with the upcoming study group and other event schedules.
 - [Facebook](https://facebook.com/wwcodemanila): Get updated about what's happening with the community.
 - [Twitter](https://twitter.com/wwcodemanila): Get updates about current and future events.
@@ -58,7 +59,6 @@ You can donate at our [Open Collective](https://opencollective.com/wwcodemanila)
 ### Hosting
 
 Do you want to host one of our study groups? Email us at **manila@womenwhocode.com**.
-
 
 ## Contributors
 
