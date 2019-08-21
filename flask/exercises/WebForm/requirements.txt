@@ -1,8 +1,0 @@
-click==6.7
-Flask==1.1.1
-Flask-WTF==0.14.2
-itsdangerous==0.24
-Jinja2==2.10.1
-MarkupSafe==1.0
-Werkzeug==0.15.5
-WTForms==2.1
