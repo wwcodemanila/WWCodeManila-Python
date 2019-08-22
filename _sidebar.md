@@ -12,7 +12,7 @@
     - [Let's go Git!](git/README.md)
     - [Strings pa more!](basic_concepts/strings.md)
     - [PEP8](basic_concepts/pep8.md)
-    - [Lists](basic_concepts/lists.md)
+    - [List, tuple, set](basic_concepts/lists.md)
     - [Conditional Statements](basic_concepts/conditional_statements.md)
     - [Loops](basic_concepts/loops.md)
     - [Challenge: I survived Hangman!](basic_concepts/exercises/hangman/README.md)
