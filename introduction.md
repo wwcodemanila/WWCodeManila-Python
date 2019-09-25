@@ -2,7 +2,7 @@
 
 ## A Python x Game Development study group collaboration
 
-We will be making a simple interactive game or *visual novel* using a Python engine called Ren'Py. This is a collaboration between the WWCode Manila Python :snake:, and Game Development :v: Study Groups! 
+We will be making a simple interactive game or *visual novel* using a Python engine called Ren'Py. This is a collaboration between the WWCode Manila Python :snake:, and Game Development :video_game: ​Study Groups! 
 
 **Game development** with Python is under one of our advanced topics. While a working knowledge of Python is needed in order to carry out some of the exercises in this study guide, Ren'Py also has its own syntax. We'll be learning and applying these throughout this study session.
 

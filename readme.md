@@ -1,4 +1,4 @@
-*This should go inside `_sidebar.md`* .
+*This should go inside `_sidebar.md`*  in our docsify.
 
 - Ren'Py
 
@@ -9,4 +9,3 @@
   - [Creating a new game](creating_a_new_game.md)
 
     
-
