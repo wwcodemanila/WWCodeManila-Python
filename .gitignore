@@ -1,0 +1,13 @@
+*.pyc
+*~
+__pycache__
+.DS_Store
+envs
+errors.txt
+logs.txt
+traceback.txt
+*.rpyc
+saves
+cache
+tl
+game
