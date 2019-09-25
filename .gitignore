@@ -4,7 +4,7 @@ __pycache__
 .DS_Store
 envs
 errors.txt
-logs.txt
+log.txt
 traceback.txt
 *.rpyc
 saves
