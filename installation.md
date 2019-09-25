@@ -23,7 +23,7 @@ You'll then be able to access the main screen of the Ren'Py engine.
 
 <img src="images/renpy_engine.png" width=600 height=400 />
 
-From here you can (1) Create new projects `+ Create New Project`;  (2) Access the directories and scripts inside each project; (3) Launch a project or game; (3) Modify the settings for engine `Preferences`; (4) Package a game for distribution, and many others.
+From here you can (1) Create new projects `+ Create New Project`;  (2) Access the directories and scripts inside each project; (3) Launch a project or game; (3) Modify the settings of the engine `Preferences`; (4) Package a game for distribution, and many others.
 
 You can also access both the "Tutorial" and a sample Ren'Py game called "The Question". Check these out to learn more about Ren'Py by selecting the project name under `Projects` then clicking `Launch Project`.
 
