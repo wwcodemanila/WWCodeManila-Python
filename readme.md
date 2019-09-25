@@ -8,5 +8,5 @@
 
 
 
-[Sample game](codes/Aling Nena VN), draft only.
+[Sample game](codes/Aling_Nena_VN), draft only.
 
