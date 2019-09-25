@@ -10,9 +10,7 @@ We will be making a simple interactive game or *visual novel* using a Python eng
 
 # What is Ren'Py
 
-<img src= "https://www.renpy.org/static/index-logo.png" align="left"/>Ren'Py is a game engine used to make visual novels - interactive stories with words, sounds, and often with choose-your-own-ending storyline. It has its own simple scripting language, and since it's based on Python, you can also leverage your coding skills in order to make more complex games.
-
-
+<img src= "https://www.renpy.org/static/index-logo.png" align="right"/>Ren'Py is a game engine used to make visual novels - interactive stories with words, sounds, and often with choose-your-own-ending storyline. It has its own simple scripting language, and since it's based on Python, you can also leverage your coding skills in order to make more complex games.
 
 
 
