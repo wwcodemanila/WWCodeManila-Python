@@ -155,7 +155,7 @@ label reward:
 
     $ b_reward = True
 
-    n "You did well, Karen! Because you helped me a lot today, I will give you a reward."
+    n "You did well, [name]! Because you helped me a lot today, I will give you a reward."
     n "Which will it be?"
 
     $ baon = False
