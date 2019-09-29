@@ -1,4 +1,8 @@
-*This should go inside `_sidebar.md`*  in our docsify.
+Repo to be merged into [WWCode Python Study Group](https://wwcodemanila.github.io/WWCodeManila-Python/#/) page. 
+
+This is a collaboration between the WWCode Manila Python :snake:, and Game Development :video_game: Study Groups. 
+
+The following should go inside `_sidebar.md`  in our docsify.
 
 - Ren'Py
 
