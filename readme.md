@@ -11,5 +11,5 @@
   - [Aling Nena VN Part 4](scene4.md)
   - [Aling Nena VN Part 5 - Ending](scene567.md)
 
-[Sample game](codes/Aling_Nena_VN), draft only.
+[Sample game](game/), draft only.
 
