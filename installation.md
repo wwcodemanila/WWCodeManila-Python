@@ -1,3 +1,5 @@
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/WWCodeManila/Python)
+
 # Installation
 
 You'll need:
@@ -42,3 +44,6 @@ Once you have finished linking an editor to Ren'Py files, click `Return` to go b
 Try if you can launch the editor of your choice from the Ren'Py engine by selecting the project "The Question" and then clicking `script.rpy` under `Edit file`. (We'll learn what these scripts are later). You should be able to read the code in your code editor.
 
 That's it! You have now installed and setup the tools that we'll need in order to make a game (visual novel) using Python.
+
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/WWCodeManila/Python)
+

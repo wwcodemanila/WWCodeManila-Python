@@ -1,3 +1,5 @@
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/WWCodeManila/Python)
+
 # Game development using Ren'Py
 
 ## A Python x Game Development study groups collaboration 
@@ -22,3 +24,6 @@ If you want to learn more about Ren'Py or developing visual novels, you can chec
 
 - [The Official Ren'Py website](https://www.renpy.org/)
 - [Lemma Soft Forums for creators of visual novels and story-based games ](https://lemmasoft.renai.us/forums/)
+
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/WWCodeManila/Python)
+
