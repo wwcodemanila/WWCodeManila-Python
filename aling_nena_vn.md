@@ -21,7 +21,7 @@ The story takes places in various **scenes**:
 
 Along the way, you'll have to decide what your character will do next by selecting answers in a **menu** screen. Depending on  your answers along the branching storyline, you'll either encounter a *good ending* or a *bad ending*. 
 
-This game that we'll be making is available [here](), while the codes are [here](). Feel free to play this game and/or look at the codes to familiarize your self with the gameplay as well as how the code is structured.
+This game that we'll be making is available [here](), while the codes are [here](game/). Feel free to play this game and/or look at the codes to familiarize your self with the gameplay as well as how the code is structured.
 
 !> If you haven't done so already, create a new Ren'Py game from the launcher called `Aling Nena VN` or whatever title you want to put in. Make sure you set the screen size to 1980 px by 720 px. 
 
