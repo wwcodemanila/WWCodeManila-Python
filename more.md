@@ -1,4 +1,4 @@
-**Advance Ren'Py topics to be covered:**
+**Advance Ren'Py topics:**
 
 - Inserting music and sounds :soon:
 - Customizing the GUI :soon:

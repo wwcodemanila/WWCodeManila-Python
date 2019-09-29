@@ -10,6 +10,7 @@
   - [Aling Nena VN Part 3](scene3.md)
   - [Aling Nena VN Part 4](scene4.md)
   - [Aling Nena VN Part 5 - Ending](scene567.md)
+  - [Advanced topics :soon:](more.md)
 
 [Sample game](game/), draft only.
 
