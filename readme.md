@@ -8,7 +8,7 @@ The following should go inside `_sidebar.md`  in our docsify.
 
   - [Introduction](introduction.md)
   - [Installation and setting up](installation.md)
-  - [Creating new game](creating-new-game.md)
+  - [Creating a new game](create-new-game.md)
   - [Aling Nena VN](aling-nena-vn.md)
   - [Tutorial Part 1](scene1.md)
   - [Tutorial Part 2](scene2.md)
