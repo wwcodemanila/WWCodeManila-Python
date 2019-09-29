@@ -1,4 +1,4 @@
-Repo to be merged into [WWCode Manila Python Study Group](https://wwcodemanila.github.io/WWCodeManila-Python/#/) page. 
+Repo to be merged in [WWCode Manila Python Study Group](https://wwcodemanila.github.io/WWCodeManila-Python/#/) page. 
 
 This is a collaboration between the WWCode Manila Python :snake:, and Game Development :video_game: Study Groups. 
 
