@@ -39,7 +39,7 @@
     - Deploying my app :soon:
     - Wrapping up :soon:
 
-- Ren'Py
+<!-- - Ren'Py
     - [Introduction](ren'py/introduction.md)
     - [Installation and setting up](ren'py/installation.md)
     - [Creating a new game](ren'py/create-new-game.md)
@@ -49,7 +49,7 @@
     - [Tutorial Part 3](ren'py/scene3.md)
     - [Tutorial Part 4](ren'py/scene4.md)
     - [Tutorial Part 5 - Ending](ren'py/scene567.md)
-    - [More topics :soon:](ren'py/more.md)
+    - [More topics :soon:](ren'py/more.md) -->
     
 - Resources
     - [References](resources/references.md)
