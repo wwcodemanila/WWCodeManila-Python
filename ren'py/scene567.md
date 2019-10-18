@@ -160,5 +160,7 @@ That's it! Congratulations on creating a simple virtual novel.
 
 Make a visual novel of your own. Write or choose a story, gather your own assets, build awesome characters, make up interesting dialogues! Share your work! We'll love to play it! :heart:
 
+[challenge_partial](../challenge_partial.md ':include')
+
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/WWCodeManila/Python)
 

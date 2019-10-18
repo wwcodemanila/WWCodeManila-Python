@@ -25,8 +25,8 @@ Along the way, you'll have to decide what your character will do next by selecti
 
 Download the following in your local machine:
 
-- [ ] [code for the game](game)
-- [ ] [images for the game](assets)
+- [ ] [code for the game](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/ren'py/game)
+- [ ] [images for the game](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/ren'py/assets)
 
 Feel free to play this game and/or look at the codes to familiarize your self with the gameplay as well as how the code is structured.
 

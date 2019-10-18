@@ -23,7 +23,7 @@ Once downloaded, double click on the installer to start the process (Windows). F
 
 You'll then be able to access the main screen of the Ren'Py engine.
 
-<img src="images/renpy_engine.png" width=600 height=400 />
+<img src="https://raw.githubusercontent.com/wwcodemanila/WWCodeManila-Python/master/ren'py/images/renpy_engine.png" width=600 height=400 />
 
 From here you can (1) Create new projects `+ Create New Project`;  (2) Access the directories and scripts inside each project; (3) Launch a project or game; (3) Modify the settings of the engine `Preferences`; (4) Package a game for distribution, and many others.
 
@@ -33,7 +33,7 @@ You can also access both the "Tutorial" and a sample Ren'Py game called "The Que
 
 To link a code editor with Ren'Py files (`*.rpy`), go to `Preferences`. Under `Text Editor`, you can then choose to download one of the editors e.g. *Atom, Editra*, or  *jEdit*. Or specify an editor that you have already installed in your system in  *System Editor* 
 
-<img src="images/renpy_editor.png" width=600 height=400 />
+<img src="https://raw.githubusercontent.com/wwcodemanila/WWCodeManila-Python/master/ren'py/images/renpy_editor.png" width=600 height=400 />
 
 Once you have finished linking an editor to Ren'Py files, click `Return` to go back to the main screen.
 
