@@ -10,7 +10,7 @@ This game follows the adventure of the player (you!) as Aling Nena's grandchild 
 
 - Aling Nena, your grandmother
 - Lita and Boy, your friends 
-- Mang Bert and Aling Tasya, Aling Nena's *suki* (loyal customers) in her *sari-sari* store (a small grocery store)
+- Bert and Tasya, Aling Nena's *suki* (loyal customers) in her *sari-sari* store (a small grocery store)
 
 The story takes places in various **scenes**:
 
@@ -21,7 +21,14 @@ The story takes places in various **scenes**:
 
 Along the way, you'll have to decide what your character will do next by selecting answers in a **menu** screen. Depending on  your answers along the branching storyline, you'll either encounter a *good ending* or a *bad ending*. 
 
-This game that we'll be making is available [here](), while the codes are [here](game/). Feel free to play this game and/or look at the codes to familiarize your self with the gameplay as well as how the code is structured.
+## Materials
+
+Download the following in your local machine:
+
+- [ ] [code for the game](game)
+- [ ] [images for the game](assets)
+
+Feel free to play this game and/or look at the codes to familiarize your self with the gameplay as well as how the code is structured.
 
 !> If you haven't done so already, create a new Ren'Py game from the launcher called `Aling Nena VN` or whatever title you want to put in. Make sure you set the screen size to 1980 px by 720 px. 
 

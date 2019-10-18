@@ -124,7 +124,7 @@ You can add more customization on how your character and its dialogue will be di
 define n = Character("Aling Nena", color="#FF8426")
 ```
 
-This displays the character name in orange instead of the default blue. You can learn more about how the character displays can be customized [here](https://www.renpy.org/doc/html/dialogue.html#Character). Let's save this for later in this study guide. 
+This displays the character name in orange instead of the default blue. You can learn more about how the character displays can be customized [here](https://www.renpy.org/doc/html/dialogue.html#Character). 
 
 ## Exercise
 

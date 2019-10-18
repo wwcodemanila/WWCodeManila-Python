@@ -12,7 +12,7 @@ define beachf = False
 define rewardf = False
 ```
 
-Copy the asset `bg beach.png` from the `assets` folder into `game/images`. 
+Copy the assets `bg beach.png` and `nena sad.png` from the `assets` folder into `game/images`. 
 
 # Scene 5
 
@@ -93,7 +93,7 @@ label ending:
 
     else:
         "You went home after a long day."
-        show nena
+        show nena sad
         "Your Lola Nena is waiting for you. She doesn't look happy."
         n "Apo, I have called your Mom and Dad. They will fetch you here tomorrow."
         u "But.. but Lola..."
@@ -104,11 +104,11 @@ label ending:
         elif storef:
             if correct_change == False:
                 $ desc = "a dishonest"
-                n "Mang Bert told me that you did not give him the correct change."
+                n "Bert told me that you did not give him the correct change."
                 n "Instead, you pocketed the excess amount!"
-            if correct_reward == False:
+            if correct_item == False:
                 $ desc = "an untrustworthy"
-                n "Aling Tasya said that you didn't give her the correct reward."
+                n "Tasya said that you didn't give her the correct reward."
                 n "Instead, you kept it to your self!"
         
         n "I have no use for [desc] grandchild."

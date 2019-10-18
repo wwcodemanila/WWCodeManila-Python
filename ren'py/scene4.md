@@ -2,7 +2,7 @@
 
 # Scene 4
 
-This scene takes place inside Aling Nena's store. You're then tasked to assist two customers: Mang Bert and Aling Tasya. The manner with which you answer their concerns will determine the succeeding scenes. 
+This scene takes place inside Aling Nena's store. You're then tasked to assist two customers: Bert and Tasya. The manner with which you answer their concerns will determine the succeeding scenes. 
 
 At this point, we've already covered much of what can be learned in implementing a basic visual novel using Ren'Py. We'll only need to discuss
 
@@ -11,8 +11,8 @@ At this point, we've already covered much of what can be learned in implementing
 You'll first need to add our last two characters before the `label start` block along with the other characters:
 
 ```python
-define r = Character("Mang Bert")
-define t = Character("Aling Tasya")
+define r = Character("Bert")
+define t = Character("Tasya")
 ```
 
 And these flags below where you defined the characters and before the `label start` block.
@@ -39,37 +39,37 @@ label store:
     show bert with moveinright
 
     r "Good day, Aling Nena."
-    n "Good day, Mang Bert. What is your business today?"
+    n "Good day, Bert. What is your business today?"
     show store prices at Position(xpos = 0.10, ypos=0.10, xanchor = 0.0, yanchor = 0.0) with dissolve
     r "I need 2 kilos of rice, 2 cans of sardines, and 1 liter of oil, please."
-    u "I'll help you today, Mang Bert."
+    u "I'll help you today, Bert."
 
     with fade
 
     u "Here you go."
-    "You give the items to Mang Bert."
+    "You give the items to Bert."
     r "Hohoho. Thanks, [name]. Here's Php 100."
-    u "Wait a minute, Mang Bert..."
+    u "Wait a minute, Bert..."
     "{i}He bought 2 kilos of rice, 2 cans of sardines, and 1 liter of oil ... {w} And he gave me Php 100. That means ... {/i}"
 
     menu:
         "I should give him a change of {b}Php 20{/b}":
             u "Your change is Php 20."
-            "You give the change to Mang Bert."
+            "You give the change to Bert."
             $ correct_change = True
         "I should give him a change of {b}Php 10{/b}":
             u "Your change is Php 10."
-            "You give the change to Mang Bert."
+            "You give the change to Bert."
         "{b}No change{/b}":
             u "Oops. Nothing."
 
     if correct_change:
-        "Mang Bert smiles and walks away."
+        "Bert smiles and walks away."
         hide store prices
         hide bert with moveoutleft
     else:
         "You pocket the rest of the change."
-        "Mang Bert frowns and walks away."
+        "Bert frowns and walks away."
         hide store prices
         hide bert with moveoutleft
 
@@ -77,9 +77,9 @@ label store:
     show tasya with moveinleft
 
     t "Good day Aling Nena and [name]."
-    u "What brings you here, Aling Tasya?"
+    u "What brings you here, Tasya?"
     t "I'm here to collect my reward from Aling Nena's Sari-sari store."
-    u "Congratulations, Aling Tasya! What reward number did you avail?"
+    u "Congratulations, Tasya! What reward number did you avail?"
     show store rewards at Position(xpos = 0.90, ypos=0.10, xanchor = 1.0, yanchor = 0.0) with dissolve
     t "It's number 5."
 
@@ -95,12 +95,12 @@ label store:
             $ correct_item = True
 
     if correct_item:
-        "Aling Tasya smiles and walks away." 
+        "Tasya smiles and walks away." 
         hide store rewards
         hide tasya with moveoutright
     else:
         "You keep the reward for your self."
-        "Aling Tasya frowns and walks away."
+        "Tasya frowns and walks away."
         hide store rewards
         hide tasya with moveoutright
 

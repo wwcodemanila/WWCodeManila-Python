@@ -27,7 +27,7 @@ define storef = False
 
 Next, copy the assets `bg street.png` ,  `lita.png`, and `boy.png` from the `assets` folder into `game/images`. 
 
-Here is the full code for the next scene. Copy the following code into `script.rpy` after the `label start` block. It's a new `label` statement so it should not be indented inside the previous block.
+Here is the full code for the next scene. Copy the following code into `script.rpy` after the `label start` block. It's a new `label` statement so it *should not be* indented inside the previous block.
 
 ```python
 label street:
