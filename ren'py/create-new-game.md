@@ -36,7 +36,7 @@ The Ren'Py software development kit already provides features such as saving, lo
 
 The default game interface will look like this:
 
-<img src="https://raw.githubusercontent.com/wwcodemanila/WWCodeManila-Python/master/ren'py/images/game_interface_01.png" width=350 height=200 /> <img src="images/game_interface_02.png" width=350 height=200 />
+<img src="https://raw.githubusercontent.com/wwcodemanila/WWCodeManila-Python/master/ren'py/images/game_interface_01.png" width=350 height=200 /> <img src="https://raw.githubusercontent.com/wwcodemanila/WWCodeManila-Python/master/ren'py/images/game_interface_02.png" width=350 height=200 />
 
 
 
