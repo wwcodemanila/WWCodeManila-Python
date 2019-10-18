@@ -23,12 +23,12 @@ Along the way, you'll have to decide what your character will do next by selecti
 
 ## Materials
 
-Download the following in your local machine:
+The materials for this Ren'Py game tutorial are [here](http://bit.ly/wwcodemanila-renpy). These include: 
 
-- [ ] [code for the game](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/ren'py/game)
-- [ ] [images for the game](https://github.com/wwcodemanila/WWCodeManila-Python/tree/master/ren'py/assets)
+- [ ] code for the game
+- [ ] assets (images) for the game 
 
-Feel free to play this game and/or look at the codes to familiarize your self with the gameplay as well as how the code is structured.
+Feel free to play this game and/or look at the codes `script.rpy` and `batobato.rpy` to familiarize your self with the gameplay as well as how the code is structured.
 
 !> If you haven't done so already, create a new Ren'Py game from the launcher called `Aling Nena VN` or whatever title you want to put in. Make sure you set the screen size to 1980 px by 720 px. 
 

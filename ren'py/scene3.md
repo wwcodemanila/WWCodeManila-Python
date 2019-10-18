@@ -140,5 +140,7 @@ What does the text-tag `{w}{/w}` do?
 
 What does `\n` do ?
 
+[challenge_partial](../challenge_partial.md ':include')
+
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/WWCodeManila/Python)
 
