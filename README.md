@@ -1,7 +1,5 @@
 # Welcome to the world of Python!
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/WWCodeManila/Python)
-
 !> Go to our official [GitHub Page](https://wwcodemanila.github.io/WWCodeManila-Python/#/) if you are viewing from the source code repository.
 
 For beginners, we will learn the basic concepts of
