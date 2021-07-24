@@ -1,6 +1,10 @@
 ## Goals
 - [ ] Create questions module
 - [ ] Create questions and answers serializer
+- [ ] Create questions views
+- [ ] Create answers views
+- [ ] Create detail endpoints 
+- [ ] Create like endpoint
 
 ## Create `questions` module
 ``` 
@@ -190,3 +194,211 @@ class QuestionSerializer(serializers.ModelSerializer):
         request = self.context.get("request")
         return instance.answers.filter(author=request.user).exists()
 ```
+
+## Create `questions` views
+In this part we will create a viewset for module `questions`. It is a class-based view without method handlers such as `get` or `post`, but it provides actions such as `.list()` and `.create()`.
+questions/api/views.py
+
+```
+from rest_framework import serializers, viewsets
+from rest_framework.permissions import IsAuthenticated
+
+from questions.api.serializers import QuestionSerializer
+from questions.api.permissions import IsAuthorOrReadOnly
+from questions.models import Question
+
+
+class QuestionViewSet(viewsets.ModelViewSet):
+    queryset = Question.objects.all()
+    lookup_field = 'slug'
+    serializer_class = QuestionSerializer
+    permission_classes = [IsAuthenticated, IsAuthorOrReadOnly]
+
+    def perform_create(self, serializer):
+        serializer.save(author=self.request.user)
+
+
+```
+
+Then we will create a `permissions.py` file in `questions/api` folder to secure the api and restrict other users from accessing the apis. We will create a class `IsAuthorOrReadOnly`.
+
+```
+from rest_framework import permissions
+
+
+class IsAuthorOrReadOnly(permissions.BasePermission):
+
+    def has_object_permission(self, request, view, obj):
+        if request.method in permissions.SAFE_METHODS:
+            return True
+        return obj.author == request.user
+```
+
+
+In `questions/api/urls.py`, register the view. 
+```
+from django.urls import include, path
+from rest_framework import routers, urlpatterns
+from rest_framework.routers import DefaultRouter
+
+from questions.api import views as qv
+
+router = DefaultRouter()
+router.register(r"questions", qv.QuestionViewSet)
+
+
+urlpatterns = [
+    path("", include(router.urls))
+]
+```
+
+After that, register the `questions` url in the `forumapp/urls.py` file. Register this inside the urlpatterns.
+```
+    path('api/', include('questions.api.urls')),
+```
+
+Now, try the newly created api by accessing it in your browser then by typing `localhost:8000/api/questions/`. You may access the api with the question instance. You may also try to accessor update an individual questions by adding the slug value at the end of the search bar. 
+```
+example:
+http://localhost:8000/api/questions/first-question-does-it-work-7ue6r8/
+```
+
+## Create `answers` views
+In `questions/api/views.py`, we are going to create two separate views, first to let the users answer the question, and second to list all of the answers for the questions. 
+
+```
+from rest_framework import generics, viewsets 
+from rest_framework.exceptions import ValidationError
+from rest_framework.generics import get_object_or_404
+
+
+from questions.api.serializers import AnswerSerializer, QuestionSerializer
+from questions.models import Answer, Question
+
+
+class AnswerCreateAPIView(generics.CreateAPIView):
+    queryset = Answer.objects.all()
+    serializer_class = AnswerSerializer
+    permission_classes = [IsAuthenticated]
+
+    def perform_create(self, serializer):
+        request_user = self.request.user
+        kwarg_slug = self.kwargs.get("slug")
+        question = get_object_or_404(Question, slug=kwarg_slug)
+
+        if question.answers.filter(author=request_user).exists():
+            raise ValidationError("You have already answered this question!")
+        serializer.save(author=self.request.user, question=question)
+```
+
+Then register the View to `questions/api/urls.py`
+```
+path("questions/<slug:slug>/answer/",
+    qv.AnswerCreateAPIView.as_view(), name='answer-create')
+```
+
+Now, go back to your browser then check whether you see an answer field, like in the example below:
+```
+http://localhost:8000/api/questions/do-you-like-guitars-norzk0/answer/
+
+```
+
+Once you accessed the link in your browser, you may notice that you cannot access a list of all of the answers in each question. The next thing that we need to do is to create a view that will list them all.
+
+In `questions/api/views.py`, create another class called `AnswerListAPIView`.
+
+```
+class AnswerListAPIView(generics.ListAPIView):
+    serializer_class = AnswerSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        kwarg_slug = self.kwargs.get('slug')
+        return Answer.objects.filter(question__slug=kwarg_slug).order_by('-created_at')
+```
+
+Same as what we did earlier, register the view `AnswerListAPIView` to `questions/api/urls.py`.
+
+```
+path("questions/<slug:slug>/answers/",
+    qv.AnswerListAPIView.as_view(), name='answer-list')
+```
+
+Perfect! Now, go back to your browser, then access this link `http://localhost:8000/api/questions/<slug_url>/answers/`. You may now check the list of the answers in each question. :tada:
+
+
+## Create detail endpoint
+To finish our backend setup, we need two more endpoints; one for Retrieving, Updating and Deleting answers, and one for the "like" feature.
+
+In `questions/api/views.py`, add a class called `AnswerRUDApiView`.
+
+```
+class AnswerRUDApiView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Answer.objects.all()
+    serializer_class = AnswerSerializer
+    permission_classes = [IsAuthenticated, IsAuthorOrReadOnly]
+```
+Then register again in `questions/api/urls.py`.
+```
+path("answers/<int:pk>/",
+    qv.AnswerRUDApiView.as_view(), name='answer-detail')
+```
+Try accessing the url `http://localhost:8000/api/questions/<slug_api>/answers/`, you can see a list of answers with id. After that, get the id, then use that id in url `http://localhost:8000/api/answers/<id>/`. You may see the details of the answer. Try also updating and deleting the answer.
+
+## Create like endpoint
+Let us now create the last endpoint - the like endpoint. 
+In `questions/api/views.py`, add a class called `AnswerLikeAPIView`.
+```
+from rest_framework import generics, status, viewsets
+
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
+
+class AnswerLikeAPIView(APIView):
+    serializer_class = AnswerSerializer
+    permission_classes = [IsAuthenticated]
+
+    def delete(self, request, pk):
+        answer = get_object_or_404(Answer, pk=pk)
+        user = request.user
+
+        answer.voters.remove(user)
+        answer.save()
+
+        serializer_context = {'request': request}
+        serializer = self.serializer_class(answer, context=serializer_context)
+
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+    def post(self, request, pk):
+        answer = get_object_or_404(Answer, pk=pk)
+        user = request.user
+
+        answer.voters.add(user)
+        answer.save()
+
+        serializer_context = {'request': request}
+        serializer = self.serializer_class(answer, context=serializer_context)
+
+        return Response(serializer.data, status=status.HTTP_200_OK)
+```
+
+Register the view in `questions/api/urls.py`.
+
+```
+path("answers/<int:pk>/like/",
+    qv.AnswerLikeAPIView.as_view(), name='answer-like')
+```
+
+Access the created endpoint by typing in `http://localhost:8000/api/answers/<id>/like/`.
+
+The last thing that we need to do is to set the pagination in `settings.py` file.
+```
+REST_FRAMEWORK = {
+    ...
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 2
+}
+```
+
