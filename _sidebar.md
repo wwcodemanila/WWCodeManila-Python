@@ -55,7 +55,7 @@
     - [Setting up Django and virtual environments](django/02_setup.md)
     - [Creating your first Django application](django/03_start_project.md)
     - [Creating Users module](django/04_create_users_module.md)
-    - [Creating endpoints](django/05_endpoints.md)
+    - [Creating Users endpoints](django/05_endpoints.md)
     - [Creating Questions module](django/06_create_questions_module.md)
 
 - Resources
