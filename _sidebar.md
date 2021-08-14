@@ -57,6 +57,9 @@
     - [Creating Users module](django/04_create_users_module.md)
     - [Creating Users endpoints](django/05_endpoints.md)
     - [Creating Questions module](django/06_create_questions_module.md)
+    - [Creating the frontend of the application](django/07_create_frontend.md)
+    - [Adding VueJS to the application](django/08_add_vue.md)
+    - [Adding VueJS to the application (continuation)](django/09_vue_cont.md)
 
 - Resources
     - [References](resources/references.md)
